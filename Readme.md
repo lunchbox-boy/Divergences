@@ -22,3 +22,9 @@ What needs to be done ?
 Feel free to contribute in those areas if you know a bit of code and if you have suggestions you can always tell them here or on the official thread : https://forum.paradoxplaza.com/forum/index.php?threads/divergences-of-darkness.743333/
 
 Aussi hélas pas de traduction française mais si quelqu'un esst motivé il a mes encouragements !
+
+Edits:
+Defines
+Technology
+Wargoals
+Triggered Modifiers
