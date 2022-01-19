@@ -3,7 +3,6 @@ primary_culture = nanfaren
 culture = beifaren
 culture = yue 
 culture = hakka
-culture = zhuang 
 religion = taiping
 government = absolute_monarchy
 plurality = 0.0
@@ -59,6 +58,8 @@ private_banks = 1
 
 # Unciv Reforms
 admin_reform = yes_admin_reform
+monetary_reform = yes_monetary_reform
+foreign_weapons = yes_foreign_weapons
 
 # Starting Consciousness
 consciousness = 0
