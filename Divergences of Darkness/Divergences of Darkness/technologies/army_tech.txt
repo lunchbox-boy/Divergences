@@ -108,7 +108,7 @@ post_napoleonic_thought = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -145,9 +145,7 @@ strategic_mobility = {
     cost = 7200
     unciv_military = yes
 
-    army_base = {
-        supply_consumption = 0.10
-    }
+    army_base = { supply_consumption = 0.10 }
     max_fort = 1
     dig_in_cap = 1
 
@@ -255,7 +253,7 @@ strategic_mobility = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -291,12 +289,8 @@ point_defense_system = {
     year = 1850
     cost = 10800
     unciv_military = yes
-    engineer = {
-        support = 0.25
-    }
-    army_base = {
-        supply_consumption = 0.20
-    }
+    engineer = { support = 0.25 }
+    army_base = { supply_consumption = 0.20 }
     max_fort = 1
     dig_in_cap = 1
     ai_chance = {
@@ -403,7 +397,7 @@ point_defense_system = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -432,19 +426,14 @@ point_defense_system = {
             }
         }
     }
-
 }
 deep_defense_system = {
     area = army_doctrine
     year = 1870
     cost = 14400
     unciv_military = yes
-    engineer = {
-        support = 0.25
-    }
-    army_base = {
-        supply_consumption = 0.20
-    }
+    engineer = { support = 0.25 }
+    army_base = { supply_consumption = 0.20 }
     max_fort = 1
     dig_in_cap = 1
 
@@ -552,7 +541,7 @@ deep_defense_system = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -586,9 +575,7 @@ infiltration = {
     year = 1900
     cost = 18000
     unciv_military = yes
-    army_base = {
-        supply_consumption = 0.20
-    }
+    army_base = { supply_consumption = 0.20 }
     max_fort = 1
     dig_in_cap = 1
 
@@ -632,7 +619,7 @@ infiltration = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -667,9 +654,7 @@ modern_army_doctrine = {
     cost = 21600
     unciv_military = yes
 
-    army_base = {
-        supply_consumption = 0.20
-    }
+    army_base = { supply_consumption = 0.20 }
 
     max_fort = 1
     dig_in_cap = 1
@@ -770,7 +755,7 @@ modern_army_doctrine = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -810,6 +795,7 @@ flintlock_rifles = {
     unciv_military = yes
 
     activate_unit = infantry
+    combat_width = -1
 
     ai_chance = {
         factor = 2
@@ -907,7 +893,7 @@ flintlock_rifles = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -1047,7 +1033,7 @@ muzzle_loaded_rifles = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -1187,7 +1173,7 @@ breech_loaded_rifles = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -1320,7 +1306,7 @@ machine_guns = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -1344,7 +1330,6 @@ machine_guns = {
             }
         }
     }
-
 }
 bolt_action_rifles = {
     area = light_armament
@@ -1451,7 +1436,7 @@ bolt_action_rifles = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -1586,7 +1571,7 @@ modern_divisional_structure = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -1766,7 +1751,7 @@ iron_muzzle_loaded_artillery = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -1902,7 +1887,7 @@ iron_breech_loaded_artillery = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -2039,7 +2024,7 @@ steel_breech_loaded_artillery = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -2177,7 +2162,7 @@ indirect_artillery_fire = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -2315,7 +2300,7 @@ heavy_armament_dunno = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -2455,7 +2440,7 @@ military_staff_system = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -2592,7 +2577,7 @@ military_plans = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -2729,7 +2714,7 @@ military_statistics = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -2867,7 +2852,7 @@ military_logistics = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -3003,7 +2988,7 @@ military_directionism = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -3140,7 +3125,7 @@ aeronautics = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -3182,9 +3167,7 @@ army_command_principle = {
     unciv_military = yes
     military_tactics = 0.25
 
-    army_base = {
-        supply_consumption = 0.10
-    }
+    army_base = { supply_consumption = 0.10 }
 
     ai_chance = {
         factor = 1.5
@@ -3286,7 +3269,7 @@ army_command_principle = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -3325,9 +3308,7 @@ army_professionalism = {
 
     military_tactics = 0.25
 
-    army_base = {
-        supply_consumption = 0.10
-    }
+    army_base = { supply_consumption = 0.10 }
     ai_chance = {
         factor = 1.3
         modifier = {
@@ -3372,7 +3353,7 @@ army_professionalism = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -3411,9 +3392,7 @@ army_decision_making = {
 
     military_tactics = 0.25
 
-    army_base = {
-        supply_consumption = 0.20
-    }
+    army_base = { supply_consumption = 0.20 }
 
     ai_chance = {
         factor = 1.3
@@ -3459,7 +3438,7 @@ army_decision_making = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -3498,9 +3477,7 @@ army_risk_management = {
 
     military_tactics = 0.25
 
-    army_base = {
-        supply_consumption = 0.20
-    }
+    army_base = { supply_consumption = 0.20 }
 
     ai_chance = {
         factor = 1.3
@@ -3546,7 +3523,7 @@ army_risk_management = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -3586,9 +3563,7 @@ army_nco_training = {
 
     military_tactics = 0.25
 
-    army_base = {
-        supply_consumption = 0.20
-    }
+    army_base = { supply_consumption = 0.20 }
 
     ai_chance = {
         factor = 1.3
@@ -3634,7 +3609,7 @@ army_nco_training = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }
@@ -3673,9 +3648,7 @@ great_war_experience = {
 
     military_tactics = 0.25
 
-    army_base = {
-        supply_consumption = 0.20
-    }
+    army_base = { supply_consumption = 0.20 }
 
     ai_chance = {
         factor = 1.3
@@ -3717,7 +3690,7 @@ great_war_experience = {
                         is_greater_power = yes
                         military_score = THIS
                     }
-                    sphere_owner  = {
+                    sphere_owner = {
                         is_greater_power = yes
                         military_score = THIS
                     }

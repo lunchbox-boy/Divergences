@@ -20,9 +20,7 @@ romanticist_literature = {
             }
         }
     }
-    effect = {
-        shared_prestige = 5
-    }
+    effect = { shared_prestige = 5 }
 }
 romanticist_art = {
     limit = { romanticism = 1 }
@@ -45,9 +43,7 @@ romanticist_art = {
             }
         }
     }
-    effect = {
-        shared_prestige = 5
-    }
+    effect = { shared_prestige = 5 }
 }
 romanticist_music = {
     limit = { romanticism = 1 }
@@ -70,9 +66,7 @@ romanticist_music = {
             }
         }
     }
-    effect = {
-        shared_prestige = 5
-    }
+    effect = { shared_prestige = 5 }
 }
 #realism
 realist_literature = {
@@ -96,9 +90,7 @@ realist_literature = {
             }
         }
     }
-    effect = {
-        shared_prestige = 10
-    }
+    effect = { shared_prestige = 10 }
 }
 realist_art = {
     limit = { realism = 1 }
@@ -121,9 +113,7 @@ realist_art = {
             }
         }
     }
-    effect = {
-        shared_prestige = 10
-    }
+    effect = { shared_prestige = 10 }
 }
 realist_music = {
     limit = { realism = 1 }
@@ -142,9 +132,7 @@ realist_music = {
             idealism = 1
         }
     }
-    effect = {
-        shared_prestige = 10
-    }
+    effect = { shared_prestige = 10 }
 }
 #impressionism
 impressionist_literature = {
@@ -164,9 +152,7 @@ impressionist_literature = {
             positivism = 1
         }
     }
-    effect = {
-        shared_prestige = 15
-    }
+    effect = { shared_prestige = 15 }
 }
 impressionist_art = {
     limit = { impressionism = 1 }
@@ -185,9 +171,7 @@ impressionist_art = {
             ideological_thought = 1
         }
     }
-    effect = {
-        shared_prestige = 15
-    }
+    effect = { shared_prestige = 15 }
 }
 impressionist_music = {
     limit = { impressionism = 1 }
@@ -206,9 +190,7 @@ impressionist_music = {
             empiricism = 1
         }
     }
-    effect = {
-        shared_prestige = 15
-    }
+    effect = { shared_prestige = 15 }
 }
 #expressionism
 expressionist_literature = {
@@ -227,11 +209,8 @@ expressionist_literature = {
             factor = 2
             experimental_psychology = 1
         }
-
     }
-    effect = {
-        shared_prestige = 20
-    }
+    effect = { shared_prestige = 20 }
 }
 expressionist_art = {
     limit = { expressionism = 1 }
@@ -250,9 +229,7 @@ expressionist_art = {
             nationalism_n_imperialism = 1
         }
     }
-    effect = {
-        shared_prestige = 20
-    }
+    effect = { shared_prestige = 20 }
 }
 expressionist_music = {
     limit = { expressionism = 1 }
@@ -271,9 +248,7 @@ expressionist_music = {
             phenomenology_n_hermeneutic = 1
         }
     }
-    effect = {
-        shared_prestige = 20
-    }
+    effect = { shared_prestige = 20 }
 }
 #mass_culture_n_the_avant_garde
 avantgarde_literature = {
@@ -293,9 +268,7 @@ avantgarde_literature = {
             anti__rationalism = 1
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 avantgarde_art = {
     limit = { mass_culture_n_the_avant_garde = 1 }
@@ -314,9 +287,7 @@ avantgarde_art = {
             social_alienation = 1
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 avantgarde_music = {
     limit = { mass_culture_n_the_avant_garde = 1 }
@@ -335,9 +306,7 @@ avantgarde_music = {
             invention = jazz
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 surrealism = {
     limit = { mass_culture_n_the_avant_garde = 1 }
@@ -353,9 +322,7 @@ surrealism = {
             invention = dogma_of_violence
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 modern_design = {
     limit = { mass_culture_n_the_avant_garde = 1 }
@@ -371,9 +338,7 @@ modern_design = {
             invention = sociology
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 jazz = {
     limit = { mass_culture_n_the_avant_garde = 1 }
@@ -389,9 +354,7 @@ jazz = {
             invention = biased_multiculturalism
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 socialist_realism = {
     limit = { mass_culture_n_the_avant_garde = 1 }
@@ -411,9 +374,7 @@ socialist_realism = {
             invention = dogma_of_mass_action
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 #idealism
 neokantian_idealism = {
@@ -430,9 +391,7 @@ neokantian_idealism = {
             functionalism = 1
         }
     }
-    effect = {
-        shared_prestige = 5
-    }
+    effect = { shared_prestige = 5 }
 }
 hegelian_idealism = {
     limit = { idealism = 1 }
@@ -448,9 +407,7 @@ hegelian_idealism = {
             phenomenalism = 1
         }
     }
-    effect = {
-        shared_prestige = 5
-    }
+    effect = { shared_prestige = 5 }
 }
 proto_existentialism = {
     limit = { idealism = 1 }
@@ -466,9 +423,7 @@ proto_existentialism = {
             functionalism = 1
         }
     }
-    effect = {
-        shared_prestige = 5
-    }
+    effect = { shared_prestige = 5 }
 }
 #empiricism
 pragmatism = {
@@ -485,9 +440,7 @@ pragmatism = {
             positivism = 1
         }
     }
-    effect = {
-        shared_prestige = 10
-    }
+    effect = { shared_prestige = 10 }
 }
 i_empiricism = {
     limit = { empiricism = 1 }
@@ -503,9 +456,7 @@ i_empiricism = {
             scientific_management = 1
         }
     }
-    effect = {
-        shared_prestige = 10
-    }
+    effect = { shared_prestige = 10 }
 }
 #analytic_philosophy
 i_analytic_philosophy = {
@@ -526,9 +477,7 @@ i_analytic_philosophy = {
             plurality = 5
         }
     }
-    effect = {
-        shared_prestige = 15
-    }
+    effect = { shared_prestige = 15 }
 }
 modern_logics = {
     limit = { analytic_philosophy = 1 }
@@ -544,9 +493,7 @@ modern_logics = {
             state_n_government = 1
         }
     }
-    effect = {
-        shared_prestige = 15
-    }
+    effect = { shared_prestige = 15 }
 }
 logical_positivism = {
     limit = { analytic_philosophy = 1 }
@@ -562,9 +509,7 @@ logical_positivism = {
             biologism = 1
         }
     }
-    effect = {
-        shared_prestige = 15
-    }
+    effect = { shared_prestige = 15 }
 }
 philosophy_of_language = {
     limit = { analytic_philosophy = 1 }
@@ -580,9 +525,7 @@ philosophy_of_language = {
             nationalism_n_imperialism = 1
         }
     }
-    effect = {
-        shared_prestige = 15
-    }
+    effect = { shared_prestige = 15 }
 }
 #phenomenology_n_hermeneutic
 phenomenology = {
@@ -599,9 +542,7 @@ phenomenology = {
             social_science = 1
         }
     }
-    effect = {
-        shared_prestige = 20
-    }
+    effect = { shared_prestige = 20 }
 }
 hermeneutics = {
     limit = { phenomenology_n_hermeneutic = 1 }
@@ -617,9 +558,7 @@ hermeneutics = {
             invention = darwinism
         }
     }
-    effect = {
-        shared_prestige = 20
-    }
+    effect = { shared_prestige = 20 }
 }
 #anti__rationalism
 existentialism = {
@@ -636,9 +575,7 @@ existentialism = {
             invention = dogma_of_violence
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 nihilism_and_the_will = {
     limit = { anti__rationalism = 1 }
@@ -654,9 +591,7 @@ nihilism_and_the_will = {
             invention = social_anthropology
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 futurism = {
     limit = { anti__rationalism = 1 }
@@ -672,9 +607,7 @@ futurism = {
             synthetic_polymers = 1
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 quantum_theory = {
     limit = { anti__rationalism = 1 }
@@ -690,9 +623,7 @@ quantum_theory = {
             invention = phenomenology
         }
     }
-    effect = {
-        shared_prestige = 25
-    }
+    effect = { shared_prestige = 25 }
 }
 #biologism
 darwinism = {
@@ -713,9 +644,7 @@ darwinism = {
             invention = philosophy_of_language
         }
     }
-    effect = {
-        education_efficiency = 0.3
-    }
+    effect = { education_efficiency = 0.50 }
 }
 social_darwinism = {
     limit = { biologism = 1 }
@@ -731,12 +660,11 @@ social_darwinism = {
             invention = national_fraternity
         }
     }
-    effect = {
-        war_exhaustion = -0.05
-    }
+    effect = { war_exhaustion = -0.05 }
 }
+#social_science
 sociology = {
-    limit = { biologism = 1 }
+    limit = { social_science = 1 }
     news = no
     chance = {
         base = 2
@@ -751,8 +679,24 @@ sociology = {
     }
     core_pop_consciousness_modifier = 0.01
 }
+social_psychology = {
+    limit = { social_science = 1 }
+    news = no
+    chance = {
+        base = 2
+        modifier = {
+            factor = 2
+            experimental_psychology = 1
+        }
+        modifier = {
+            factor = 2
+            behaviorism = 1
+        }
+    }
+    core_pop_consciousness_modifier = 0.01
+}
 political_science = {
-    limit = { biologism = 1 }
+    limit = { social_science = 1 }
     news = no
     chance = {
         base = 2
@@ -771,23 +715,6 @@ political_science = {
     }
     core_pop_consciousness_modifier = 0.01
 }
-#social_science
-social_psychology = {
-    limit = { social_science = 1 }
-    news = no
-    chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            experimental_psychology = 1
-        }
-        modifier = {
-            factor = 2
-            behaviorism = 1
-        }
-    }
-    core_pop_consciousness_modifier = 0.01
-}
 social_anthropology = {
     limit = { social_science = 1 }
     news = no
@@ -802,9 +729,7 @@ social_anthropology = {
             assembly_line = 1
         }
     }
-    effect = {
-        colonial_prestige = 0.1
-    }
+    effect = { colonial_prestige = 0.1 }
 }
 #social_alienation
 the_revolt_of_the_masses = {
@@ -858,9 +783,7 @@ paternalism = {
         }
     }
     org_regain = 0.05
-    effect = {
-        plurality = -0.05
-        }
+    effect = { plurality = -0.05 }
 }
 constitutionalism = {
     limit = {
@@ -878,8 +801,6 @@ constitutionalism = {
             factor = 1
             NOT = { political_parties = underground_parties }
         }
-
-
     }
     effect = {
         plurality = 0.05
@@ -907,9 +828,7 @@ atheism = {
             pro_atheism = 20
         }
     }
-    effect = {
-        plurality = 0.05
-    }
+    effect = { plurality = 0.05 }
 }
 egalitarianism = {
     limit = {
@@ -935,9 +854,7 @@ egalitarianism = {
             }
         }
     }
-    effect = {
-        plurality = 0.05
-    }
+    effect = { plurality = 0.05 }
 }
 rationalism = {
     limit = {
@@ -956,9 +873,7 @@ rationalism = {
             average_consciousness = 1
         }
     }
-    effect = {
-        plurality = 0.05
-    }
+    effect = { plurality = 0.05 }
 }
 #ideological_thought
 authoritarianism = {
@@ -976,14 +891,12 @@ authoritarianism = {
                 AND = {
                     government = absolute_monarchy
                     ruling_party_ideology = conservative
-                    }
                 }
+            }
         }
     }
     core_pop_consciousness_modifier = -0.02
-    effect = {
-        plurality = -0.05
-    }
+    effect = { plurality = -0.05 }
 }
 hierarchical_order = {
     news = no
@@ -1009,9 +922,7 @@ hierarchical_order = {
     }
     core_pop_militancy_modifier = -0.01
     core_pop_consciousness_modifier = 0.01
-    effect = {
-        plurality = -0.05
-    }
+    effect = { plurality = -0.05 }
 }
 traditionalism = {
     limit = {
@@ -1039,9 +950,7 @@ traditionalism = {
         }
     }
     core_pop_consciousness_modifier = -0.01
-    effect = {
-        plurality = -0.05
-    }
+    effect = { plurality = -0.05 }
 }
 political_religion = {
     limit = { ideological_thought = 1 }
@@ -1105,9 +1014,7 @@ secularization = {
             }
         }
     }
-    effect = {
-        plurality = 0.05
-    }
+    effect = { plurality = 0.05 }
 }
 social_conscience = {
     limit = {
@@ -1148,9 +1055,7 @@ collectivism = {
             ruling_party_ideology = socialist
         }
     }
-    effect = {
-        plurality = 0.05
-    }
+    effect = { plurality = 0.05 }
 }
 determinism = {
     limit = {
@@ -1173,9 +1078,7 @@ determinism = {
             tech_school = culture_tech_school
         }
     }
-    effect = {
-        plurality = 0.05
-    }
+    effect = { plurality = 0.05 }
 }
 
 social_justice = {
@@ -1198,9 +1101,7 @@ social_justice = {
             }
         }
     }
-    effect = {
-        plurality = 0.05
-    }
+    effect = { plurality = 0.05 }
 }
 #state_n_government
 populism_vs._establishment = {
@@ -1218,7 +1119,6 @@ populism_vs._establishment = {
         }
     }
     political_reform_desire = 0.05
-
 }
 clericalism_vs._anticlericalism = {
     limit = {
@@ -1230,18 +1130,14 @@ clericalism_vs._anticlericalism = {
         base = 2
         modifier = {
             factor = 2
-            NOT = {
-                moralism = 10
-            }
+            NOT = { moralism = 10 }
         }
         modifier = {
             factor = 1
             average_militancy = 3
         }
     }
-    effect = {
-        plurality = 0.05
-    }
+    effect = { plurality = 0.05 }
 }
 bureaucracy_vs._nepotism = {
     limit = { state_n_government = 1 }
@@ -1277,9 +1173,7 @@ meritocracy_vs._aristocracy = {
             nationalvalue = nv_liberty
         }
     }
-    effect = {
-        plurality = 0.05
-    }
+    effect = { plurality = 0.05 }
 }
 #nationalism_n_imperialism
 national_fraternity = {
@@ -1322,9 +1216,7 @@ biased_multiculturalism = {
             nationalvalue = nv_order
         }
     }
-    effect = {
-        colonial_migration = 0.05
-    }
+    effect = { colonial_migration = 0.05 }
 }
 manifest_destiny = {
     limit = {
@@ -1401,15 +1293,11 @@ mission_to_civilize = {
         }
         modifier = {
             factor = 10
-            any_greater_power = {
-                invention = mission_to_civilize
-            }
+            any_greater_power = { invention = mission_to_civilize }
         }
         modifier = {
             factor = 10
-            any_neighbor_country = {
-                invention = mission_to_civilize
-            }
+            any_neighbor_country = { invention = mission_to_civilize }
         }
     }
     effect = {
@@ -1459,9 +1347,7 @@ dogma_of_violence = {
             nationalvalue = nv_order
         }
     }
-    effect = {
-        enable_crime = anarchic_bomb_throwers
-    }
+    effect = { enable_crime = anarchic_bomb_throwers }
 }
 dogma_of_mass_action = {
     limit = { revolution_n_counterrevolution = 1 }
@@ -1505,18 +1391,16 @@ terrorism = {
             nationalvalue = nv_liberty
         }
     }
-    effect = {
-        enable_crime = terrorist_cells
-    }
+    effect = { enable_crime = terrorist_cells }
 }
 #general_strikes = {
-#    limit = { revolution_n_counterrevolution = 1 }
-#    news = no
-#    chance = {
-#        base = 5
-#    }
-#    effect = {
-#    }
+#	limit = { revolution_n_counterrevolution = 1 }
+#	news = no
+#	chance = {
+#		base = 5
+#	}
+#	effect = {
+#	}
 #}
 secret_police = {
     news = no
@@ -1561,9 +1445,7 @@ womens_suffrage_movement = {
             ruling_party_ideology = liberal
         }
     }
-    effect = {
-        mobilisation_economy_impact = -0.2
-    }
+    effect = { mobilisation_economy_impact = -0.2 }
 }
 rhetoric_of_hate = {
     limit = { revolution_n_counterrevolution = 1 }
@@ -1765,9 +1647,9 @@ the_police_state = {
         suppression_points_modifier = 0.25
     }
 }
-#psychoanalysis
+#behaviorism
 mass_advertising = {
-    limit = { psychoanalysis = 1 }
+    limit = { behaviorism = 1 }
     news = no
     chance = {
         base = 2
@@ -1791,7 +1673,7 @@ mass_advertising = {
     core_pop_consciousness_modifier = 0.01
 }
 national_radio_networks = {
-    limit = { psychoanalysis = 1 }
+    limit = { behaviorism = 1 }
     news = no
     chance = {
         base = 3
@@ -1815,7 +1697,7 @@ national_radio_networks = {
     core_pop_consciousness_modifier = 0.01
 }
 the_talkies = {
-    limit = { psychoanalysis = 1 }
+    limit = { behaviorism = 1 }
     news = no
     chance = {
         base = 2

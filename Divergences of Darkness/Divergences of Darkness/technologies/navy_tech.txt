@@ -89,7 +89,10 @@ battleship_column_doctrine = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -187,16 +190,13 @@ raider_group_doctrine = {
             NOT = { literacy = 0.3 }
             is_greater_power = yes
         }
-        # Good LIT GPs should pay more attention here
-        modifier = {
-            factor = 1.5
-            literacy = 0.3
-            is_greater_power = yes
-        }
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -294,16 +294,13 @@ blue_and_brown_water_schools = {
             NOT = { literacy = 0.3 }
             is_greater_power = yes
         }
-        # Good LIT GPs should pay more attention here
-        modifier = {
-            factor = 1.5
-            literacy = 0.3
-            is_greater_power = yes
-        }
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -360,7 +357,7 @@ blue_and_brown_water_schools = {
         }
 
         modifier = {
-            factor = 200
+            factor = 100
             OR = {
                 tag = BEL
                 tag = SPA
@@ -399,7 +396,10 @@ high_sea_battle_fleet = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -477,7 +477,10 @@ modern_naval_doctrine = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -537,16 +540,9 @@ clipper_design = {
     area = ship_construction
     year = 1836
     cost = 3600
+    navy_base = { maximum_speed = 1 }
     unciv_military = yes
-    clipper_transport = {
-        maximum_speed = 1
-    }
-    frigate = {
-        maximum_speed = 1
-    }
-    manowar = {
-        maximum_speed = 1
-    }
+
     ai_chance = {
         factor = 1.5
         # Land-locked countries don't research this
@@ -562,7 +558,10 @@ clipper_design = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -625,9 +624,7 @@ steamers = {
     cost = 7200
     unciv_military = yes
 
-    clipper_transport = { maximum_speed = 2 }
-    frigate = { maximum_speed = 2 }
-    manowar = { maximum_speed = 2 }
+    navy_base = { maximum_speed = 1 }
 
     ai_chance = {
         factor = 4
@@ -663,7 +660,10 @@ steamers = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -729,11 +729,7 @@ iron_steamers = {
     year = 1855
     cost = 10800
     unciv_military = yes
-
-    steam_transport = { maximum_speed = 3 } #19
-    commerce_raider = { maximum_speed = 2 } #19
-
-
+    navy_base = { maximum_speed = 2 }
     ai_chance = {
         factor = 4
 
@@ -773,7 +769,10 @@ iron_steamers = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 10
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -839,12 +838,7 @@ steel_steamers = {
     year = 1880
     cost = 14400
     unciv_military = yes
-
-    steam_transport = { maximum_speed = 2 } #21
-    commerce_raider = { maximum_speed = 2 } #22
-    ironclad = { maximum_speed = 1 }         #22
-    monitor = { maximum_speed = 1 }         #10
-
+    navy_base = { maximum_speed = 1 }
     ai_chance = {
         factor = 2
         # Land-locked countries don't research this
@@ -867,7 +861,10 @@ steel_steamers = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 10
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -934,12 +931,7 @@ steam_turbine_ships = {
     year = 1900
     cost = 18000
     unciv_military = yes
-
-    steam_transport = { maximum_speed = 6 } #29
-    monitor = { maximum_speed = 6 }         #18
-    cruiser = { maximum_speed = 5 }         #33
-    battleship = { maximum_speed = 3 }         #30
-
+    navy_base = { maximum_speed = 2 }
     ai_chance = {
         factor = 4
         # Land-locked countries don't research this
@@ -962,7 +954,10 @@ steam_turbine_ships = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 10
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -1030,11 +1025,7 @@ oil_driven_ships = {
     year = 1919
     cost = 21600
     unciv_military = yes
-
-    steam_transport = { maximum_speed = 7 } #34
-    cruiser = { maximum_speed = 5 }         #39
-    dreadnought = { maximum_speed = 4 }        #37
-
+    navy_base = { maximum_speed = 2 }
     ai_chance = {
         factor = 1.25
         # Land-locked countries don't research this
@@ -1050,7 +1041,10 @@ oil_driven_ships = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 6
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -1132,7 +1126,10 @@ naval_design_bureaus = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 4
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -1220,7 +1217,10 @@ fire_control_systems = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {
@@ -1317,7 +1317,10 @@ weapon_platforms = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {
@@ -1413,7 +1416,10 @@ main_armament = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {
@@ -1512,7 +1518,10 @@ advanced_naval_design = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {
@@ -1606,7 +1615,10 @@ modern_naval_design = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {
@@ -1711,7 +1723,10 @@ alphabetic_flag_signaling = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         modifier = {
             factor = 1.05
@@ -1759,7 +1774,10 @@ naval_plans = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         modifier = {
             factor = 1.05
@@ -1781,7 +1799,7 @@ naval_statistics = {
     cost = 10800
     unciv_military = yes
     supply_range = 0.5
-        ai_chance = {
+    ai_chance = {
         factor = 0.25
         modifier = {
             factor = 0
@@ -1806,7 +1824,10 @@ naval_statistics = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         modifier = {
             factor = 1.05
@@ -1840,7 +1861,7 @@ naval_logistics = {
     cost = 14400
     unciv_military = yes
     supply_range = 1.0
-        ai_chance = {
+    ai_chance = {
         factor = 0.25
         modifier = {
             factor = 0
@@ -1868,7 +1889,10 @@ naval_logistics = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         modifier = {
             factor = 1.05
@@ -1890,7 +1914,7 @@ naval_directionism = {
     cost = 18000
     unciv_military = yes
     supply_range = 1.0
-        ai_chance = {
+    ai_chance = {
         factor = 0.25
         modifier = {
             factor = 0
@@ -1918,7 +1942,10 @@ naval_directionism = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         modifier = {
             factor = 1.05
@@ -1940,7 +1967,7 @@ naval_integration = {
     cost = 21600
     unciv_military = yes
     supply_range = 1.0
-        ai_chance = {
+    ai_chance = {
         factor = 0.25
         modifier = {
             factor = 0
@@ -1964,7 +1991,10 @@ naval_integration = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         modifier = {
             factor = 0
@@ -2000,9 +2030,7 @@ the_command_principle = {
     year = 1836
     cost = 3600
     unciv_military = yes
-    navy_base = {
-        default_organisation = 10
-    }
+    navy_base = { default_organisation = 10 }
     ai_chance = {
         factor = 0.25
         # Land-locked countries don't research this
@@ -2018,7 +2046,10 @@ the_command_principle = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {
@@ -2105,7 +2136,10 @@ naval_professionalism = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 2
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {
@@ -2196,7 +2230,10 @@ naval_decision_making = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 2
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {
@@ -2287,7 +2324,10 @@ naval_risk_management = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 2
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {
@@ -2360,9 +2400,7 @@ naval_nco_training = {
     year = 1900
     cost = 18000
     unciv_military = yes
-    navy_base = {
-        default_organisation = 5
-    }
+    navy_base = { default_organisation = 5 }
     ai_chance = {
         factor = 0.25
         # Land-locked countries don't research this
@@ -2378,7 +2416,10 @@ naval_nco_training = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {
@@ -2451,9 +2492,7 @@ modern_naval_training = {
     year = 1919
     cost = 21600
     unciv_military = yes
-    navy_base = {
-        default_organisation = 5
-    }
+    navy_base = { default_organisation = 5 }
     ai_chance = {
         factor = 0.25
         # Land-locked countries don't research this
@@ -2469,7 +2508,10 @@ modern_naval_training = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = {
+                tech_school = naval_tech_school
+                tech_school = japanese_tech_school
+            }
         }
         # More popular when at war
         modifier = {

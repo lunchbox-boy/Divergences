@@ -345,6 +345,7 @@ hormuz_strait = {
     icon = 16
 }
 
+
 DVG_badboy_1 = {
     trigger = {
         NOT = { has_global_flag = DVG_infamy }

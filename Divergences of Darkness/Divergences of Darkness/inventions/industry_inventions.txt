@@ -1275,7 +1275,7 @@ aerial_bacteria_and_antiseptic_principle = {
         }
     }
     effect = {
-        pop_growth = 0.0004
+        pop_growth = 0.0006
         land_attrition = -0.05
         soldier_to_pop_loss = 0.01
     }
@@ -1296,7 +1296,6 @@ vaccination = {
     effect = {
         land_attrition = -0.05
         soldier_to_pop_loss = 0.01
-        pop_growth = 0.0001
     }
 }
 chemotherapy = {
@@ -1316,40 +1315,8 @@ chemotherapy = {
         land_attrition = -0.05
     }
 }
-genetics_heredity = {
-    limit = { medicine = 1 }
-    chance = {
-        base = 50
-        modifier = {
-            factor = 2
-            inorganic_chemistry = 1
-        }
-        modifier = {
-            factor = 2
-            colonial_nation = yes
-        }
-    }
-    effect = {
-        pop_growth = 0.0001
-    }
-}
-clinical_thermometers_and_binaural_stethoscopes = {
-    limit = { medicine = 1 }
-    chance = {
-        base = 50
-        modifier = {
-            factor = 2
-            inorganic_chemistry = 1
-        }
-        modifier = {
-            factor = 2
-            organized_factories = 1
-        }
-    }
-    effect = {
-        pop_growth = 0.0001
-    }
-}
+
+
 prophylaxis_against_malaria = {
     limit = { medicine = 1 }
     chance = {

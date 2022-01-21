@@ -110,8 +110,8 @@ unification_casus_belli
 unification_humiliate_cb
 unification_release_puppet_cb
 uninstall_communist_gov_cb
-war_reparations
 negotiated_transfer
+war_reparations
 }
 
 # Great War CB's
