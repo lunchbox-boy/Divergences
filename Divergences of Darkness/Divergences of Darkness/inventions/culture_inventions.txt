@@ -644,7 +644,7 @@ darwinism = {
             invention = philosophy_of_language
         }
     }
-    effect = { education_efficiency = 0.50 }
+    effect = { education_efficiency = 0.30 }
 }
 social_darwinism = {
     limit = { biologism = 1 }
