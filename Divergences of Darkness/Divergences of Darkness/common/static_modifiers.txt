@@ -242,3 +242,4 @@ in_bankrupcy = {
     #max_social_spending = 0.5
     ruling_party_support = -0.75
 }
+

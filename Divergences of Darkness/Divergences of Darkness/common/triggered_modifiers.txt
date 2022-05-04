@@ -317,7 +317,7 @@ educational_spen = {
         administration_spending = 0.74
     }
 
-    education_efficiency_modifier = 0.3
+    education_efficiency_modifier = 0.4
     icon = 16
 }
 
@@ -375,4 +375,16 @@ powerful_HRE = {
         NOT = { year = 1849 }
     }
     prestige = -0.50
+}
+
+ai_help = {
+    trigger = {
+        ai = yes
+        exists = yes
+    }
+
+    global_pop_militancy_modifier = -0.02
+    war_exhaustion = -0.25
+    tax_efficiency = 0.15
+    icon = 16
 }
