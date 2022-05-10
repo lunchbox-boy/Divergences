@@ -2672,3 +2672,8 @@ china_weisuo = {
     mobilisation_size = -0.2
     icon = 18
 }
+
+constitutional_crisis = {
+    badboy = 0.01
+    icon = 6
+}
