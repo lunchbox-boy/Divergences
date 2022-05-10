@@ -33,7 +33,6 @@ reactionary_rebels = {
         merchant_republic = presidential_dictatorship
         theocracy = absolute_monarchy
         colonial_company = absolute_monarchy
-        provisional_government = absolute_monarchy		
     }
 
 
@@ -336,7 +335,6 @@ fascist_rebels = {
         merchant_republic = fascist_dictatorship
         theocracy = fascist_dictatorship
         colonial_company = fascist_dictatorship
-        provisional_government = fascist_dictatorship		
     }
 
 
@@ -635,7 +633,6 @@ communist_rebels = {
         merchant_republic = proletarian_dictatorship
         theocracy = proletarian_dictatorship
         colonial_company = proletarian_dictatorship
-        provisional_government = proletarian_dictatorship		
     }
 
 
@@ -927,7 +924,6 @@ anarcho_liberal_rebels = {
         merchant_republic = bourgeois_dictatorship
         theocracy = bourgeois_dictatorship
         colonial_company = bourgeois_dictatorship
-        provisional_government = bourgeois_dictatorship		
     }
 
 
@@ -1239,7 +1235,6 @@ nationalist_rebels = {
         merchant_republic = democracy
         theocracy = theocracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
 
@@ -1289,6 +1284,13 @@ nationalist_rebels = {
         modifier = {
             factor = 0.5
             has_country_flag = arab_revolt
+        }
+        modifier = {
+            factor = 0.25
+            OR = {
+                has_country_flag = dungan_rebellion
+                has_country_flag = panthay_rebellion
+            }
         }
     }
 
@@ -1367,6 +1369,11 @@ nationalist_rebels = {
             factor = 0
             culture = persian
             location = { is_core = PER }
+        }
+        modifier = {
+            factor = 0
+            culture = british
+            country = { primary_culture = boer }
         }
         modifier = {
             factor = 0
@@ -1515,7 +1522,6 @@ pan_nationalist_rebels = {
         merchant_republic = democracy
         theocracy = theocracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
     defection = none # (It was pan_nationalist) If the country seeks independence, defection specifies what type of provinces it wants.
@@ -1840,7 +1846,7 @@ pan_nationalist_rebels = {
 
 
 ###################################
-# Iranian Redshirts
+# Italian Redshirts
 ###################################
 red_shirts = {
     icon = 8
@@ -1862,7 +1868,6 @@ red_shirts = {
         merchant_republic = merchant_republic
         theocracy = democracy
         colonial_company = hms_government
-        provisional_government = hms_government		
     }
 
     defection = none # (Was pan_nationalist) If the country seeks independence, defection specifies what type of provinces it wants.
@@ -1919,8 +1924,9 @@ red_shirts = {
         modifier = {
             factor = 0
             OR = {
-                NOT = { primary_culture = persian }
-                PER = { exists = yes }
+                culture_has_union_tag = no
+                NOT = { is_culture_group = THIS }
+                ITA = { exists = yes }
             }
         }
         modifier = {
@@ -1928,21 +1934,26 @@ red_shirts = {
             country = {
                 OR = {
                     is_greater_power = yes
-                    tag = QAJ
-                    NOT = { has_global_flag = nationalist_anjoman_active }
+                    tag = SAR
+                    NOT = { has_global_flag = garibaldi_redshirts }
                 }
             }
         }
 
         modifier = {
             factor = 0
-            NOT = { culture = persian }
+            NOT = {
+                OR = {
+                    culture = south_italian
+                    culture = north_italian
+                }
+            }
         }
 
         modifier = {
             factor = 0
             location = {
-                NOT = { is_core = PER }
+                NOT = { is_core = ITA }
             }
         }
 
@@ -1958,7 +1969,7 @@ red_shirts = {
 
         modifier = {
             factor = 1.1
-            PER = { exists = no }
+            ITA = { exists = no }
         }
 
         modifier = {
@@ -2038,7 +2049,7 @@ red_shirts = {
     # Country scope
     demands_enforced_trigger = {
         NOT = { is_cultural_union = THIS }
-        PER = { exists = no }
+        ITA = { exists = no }
         capital_scope = {
             controlled_by = REB
             province_control_days = 90
@@ -2047,25 +2058,25 @@ red_shirts = {
 
     demands_enforced_effect = {
         any_pop = {
-            limit = { is_culture_group = iranian }
+            limit = { is_culture_group = italian }
             militancy = -6
         }
         random_country = {
             limit = {
-                primary_culture = persian
+                is_culture_group = THIS
                 OR = {
                     AND = {
-                        NOT = { exists = QAJ }
+                        NOT = { exists = SAR }
                         is_greater_power = yes
                     }
-                    tag = QAJ
+                    tag = SAR
                 }
                 NOT = {
                     is_cultural_union = yes
                     has_country_flag = does_not_want_to_be_unified
                 }
             }
-            country_event = 180054
+            country_event = 11103
         }
     }
 }
@@ -2094,7 +2105,6 @@ indian_nationalists = {
         merchant_republic = merchant_republic
         theocracy = theocracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
     defection = none # If the country seeks independence, defection specifies what type of provinces it wants.
@@ -2315,7 +2325,6 @@ liberal_rebels = {
         merchant_republic = democracy
         theocracy = democracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
 
@@ -2806,7 +2815,6 @@ unciv_reactionary_rebels = {
         merchant_republic = absolute_monarchy
         theocracy = absolute_monarchy
         colonial_company = colonial_company
-        provisional_government = provisional_government		
     }
 
     defection = none # Will defect to the "best" alternative.
@@ -3044,7 +3052,6 @@ separatist_rebels = {
         merchant_republic = merchant_republic
         theocracy = theocracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
 
@@ -3307,7 +3314,6 @@ socialist_rebels = {
         theocracy = democracy
         merchant_republic = democracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
 
@@ -3844,7 +3850,6 @@ independence_rebels = {
         merchant_republic = merchant_republic
         theocracy = theocracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
 
@@ -4010,7 +4015,6 @@ turkish_nationalist_rebels = {
         merchant_republic = democracy
         theocracy = theocracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
 
@@ -4257,7 +4261,6 @@ native_rebels = {
         merchant_republic = democracy
         theocracy = democracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
     defection = none # Will defect to the "best" alternative.
@@ -4451,7 +4454,6 @@ sioux_nation = {
         merchant_republic = merchant_republic
         theocracy = theocracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
     defection = none # Will defect to the "best" alternative.
@@ -4571,7 +4573,6 @@ apache = {
         merchant_republic = merchant_republic
         theocracy = democracy
         colonial_company = democracy
-        provisional_government = democracy		
     }
 
     defection = none # Will defect to the "best" alternative.

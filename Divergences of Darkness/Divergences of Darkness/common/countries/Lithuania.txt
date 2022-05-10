@@ -4,7 +4,7 @@ color = {
 graphical_culture = EuropeanGC
 
 party = {
-    name = "LIT_conservative" # Centrists
+    name = "AAA_conservative_2" # Centrists
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -19,7 +19,7 @@ party = {
 }
 
 party = {
-    name = "LIT_conservative_2" # Moderates
+    name = "AAA_conservative_4" # Moderates
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -34,7 +34,7 @@ party = {
 }
 
 party = {
-    name = "LIT_liberal" # Republican Party
+    name = "AAA_liberal_1" # Republican Party
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -49,7 +49,7 @@ party = {
 }
 
 party = {
-    name = "LIT_liberal_2" # National Liberals
+    name = "AAA_liberal_5" # National Liberals
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -64,7 +64,7 @@ party = {
 }
 
 party = {
-    name = "LIT_socialist_1" # People's Party
+    name = "AAA_socialist_3" # People's Party
     start_date = 1848.1.1
     end_date = 2000.1.1
 
@@ -79,7 +79,7 @@ party = {
 }
 
 party = {
-    name = "LIT_socialist_2" # Progressivists
+    name = "AAA_socialist_5" # Progressivists
     start_date = 1848.1.1
     end_date = 2000.1.1
 
@@ -94,7 +94,7 @@ party = {
 }
 
 party = {
-    name = "LIT_reactionary" # Traditionalists
+    name = "AAA_reactionary_1" # Traditionalists
     start_date = 1820.1.1
     end_date = 2000.1.1
 
@@ -109,7 +109,7 @@ party = {
 }
 
 party = {
-    name = "LIT_anarcho_liberal" # Radicals
+    name = "AAA_anarcho_liberal_2" # Radicals
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -124,7 +124,7 @@ party = {
 }
 
 party = {
-    name = "LIT_communist" # Internationalists
+    name = "AAA_communist_2" # Internationalists
     start_date = 1848.1.1
     end_date = 2000.1.1
 
@@ -139,7 +139,7 @@ party = {
 }
 
 party = {
-    name = "LIT_fascist" # Falangists
+    name = "AAA_fascist_2" # Falangists
     start_date = 1905.1.1
     end_date = 2000.1.1
 

@@ -1599,14 +1599,8 @@
 	farmers = {
 		culture = misri
 		religion = sunni
-		size = 10000
+		size = 15475
 	}
-	
-	farmers = {
-		culture = misri
-		religion = ismaili
-		size = 5475
-	}	
 
 	clergymen = {
 		culture = coptic

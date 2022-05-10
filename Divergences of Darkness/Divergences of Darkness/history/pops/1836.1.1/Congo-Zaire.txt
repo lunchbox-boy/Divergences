@@ -43,29 +43,17 @@
 		religion = animist
 		size = 575
 	}
-	
-	officers = {
-		culture = bakongo
-		religion = catholic
-		size = 25
-	}
-	
-	officers = {
-		culture = bakongo
-		religion = animist
-		size = 200
-	}
 
 	farmers = {
 		culture = bakongo
 		religion = animist
-		size = 441950
+		size = 446950
 	}
 
 	slaves = {
 		culture = bakongo
 		religion = animist
-		size = 75000
+		size = 77000
 	}
 }
 #Boma (396000/99000 POPS)
@@ -92,12 +80,6 @@
 		culture = bakongo
 		religion = animist
 		size = 1100
-	}
-	
-	officers = {
-		culture = bakongo
-		religion = animist
-		size = 150
 	}
 
 	farmers = {

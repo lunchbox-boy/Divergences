@@ -698,7 +698,7 @@ country_event = { ########Equinoxian victory if Port-Liberté is held
 
     trigger = {
         tag = EQN
-        controls = 2436
+        controls = 2431
         war_with = AMA
     }
 
@@ -709,7 +709,7 @@ country_event = { ########Equinoxian victory if Port-Liberté is held
         end_war = AMA
         inherit = AMA
         change_tag = AMA
-        capital = 2436
+        capital = 2431
         prestige = 25
         government = democracy
         ruling_party_ideology = liberal

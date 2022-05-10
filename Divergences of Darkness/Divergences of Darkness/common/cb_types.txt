@@ -3566,10 +3566,7 @@ china_conquest = {
             is_culture_group = chinese
         }
         THIS = {
-            OR = {
-                is_culture_group = chinese
-                is_culture_group = oversea_chinese
-            }
+            is_culture_group = chinese
             NOT = {
                 has_country_modifier = neutrality
                 war_policy = pacifism
@@ -4867,6 +4864,8 @@ annex_africa = {
                 capital_scope = { continent = europe }
                 tag = SAF
             }
+            NOT = { tag = RUS }
+            NOT = { tag = TUR }
             slavery = no_slavery
             OR = {
                 is_greater_power = yes
@@ -4876,17 +4875,6 @@ annex_africa = {
             civilized = yes
             has_global_flag = berlin_conference
         }
-		OR = {					#Russia & Turkey are only allowed if neighbouring
-			neighbour = THIS
-			THIS = {
-				NOT = {
-					OR = {
-						tag = RUS
-						tag = TUR
-					}
-				}
-			}
-		}
         NOT = {
             tag = MOR
             tag = ALD
@@ -4980,7 +4968,9 @@ annex_africa_full = {
                 capital_scope = { continent = europe }
                 tag = SAF
             }
-            #capital_scope = { continent = europe }
+            capital_scope = { continent = europe }
+            NOT = { tag = RUS }
+            NOT = { tag = TUR }
             slavery = no_slavery
             OR = {
                 is_greater_power = yes
@@ -4990,17 +4980,6 @@ annex_africa_full = {
             civilized = yes
             has_global_flag = berlin_conference
         }
-		OR = {					#Russia & Turkey are only allowed if neighbouring
-			neighbour = THIS
-			THIS = {
-				NOT = {
-					OR = {
-						tag = RUS
-						tag = TUR
-					}
-				}
-			}
-		}
         civilized = no
         is_vassal = no
         NOT = {
@@ -7243,6 +7222,11 @@ annex_india_AI = {
             #ai = yes
             capital_scope = { continent = europe }
             OR = {
+                NOT = { tag = RUS }
+                ai = no
+            }
+            NOT = { tag = TUR }
+            OR = {
                 is_greater_power = yes
                 is_secondary_power = yes
             }
@@ -7251,17 +7235,6 @@ annex_india_AI = {
             civilized = yes
             has_global_flag = selon_treaty
         }
-		OR = {					#Russia & Turkey are only allowed if neighbouring
-			neighbour = THIS
-			THIS = {
-				NOT = {
-					OR = {
-						tag = RUS
-						tag = TUR
-					}
-				}
-			}
-		}
         OR = {
             tag = MDR
             tag = VIJ
@@ -7367,6 +7340,11 @@ annex_india_full_AI = {
         THIS = {
             capital_scope = { continent = europe }
             OR = {
+                NOT = { tag = RUS }
+                ai = no
+            }
+            NOT = { tag = TUR }
+            OR = {
                 is_greater_power = yes
                 is_secondary_power = yes
             }
@@ -7376,17 +7354,6 @@ annex_india_full_AI = {
             has_global_flag = selon_treaty
             #ai = yes
         }
-		OR = {					#Russia & Turkey are only allowed if neighbouring
-			neighbour = THIS
-			THIS = {
-				NOT = {
-					OR = {
-						tag = RUS
-						tag = TUR
-					}
-				}
-			}
-		}
         OR = {
             tag = MDR
             tag = VIJ
@@ -8028,6 +7995,7 @@ minor_conquest = {
 
     war_name = WAR_CONQUEST_NAME
 }
+
 #Negotiated Transfer
 negotiated_transfer = {
 	sprite_index = 5
@@ -8084,4 +8052,3 @@ negotiated_transfer = {
 		}
 	}
 }
-

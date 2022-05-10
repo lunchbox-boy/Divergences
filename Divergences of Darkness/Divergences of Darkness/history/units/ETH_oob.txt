@@ -1,8 +1,3 @@
-
-FUN = { 
-	value = -25		#relation
-}
-
 leader = {
 	name = "Kassa Hailu"
 	type = land
@@ -22,7 +17,6 @@ leader = {
 army = {
 	name = "Army of the Emperor of Ethiopia"
 	location = 1854
-	
 	regiment = {
 		name= "1st 'Galla' Division"
 		type = infantry
@@ -40,65 +34,29 @@ army = {
 		type = infantry
 		home = 1860
 	}
-	
-	regiment = {
-		name= "4th 'Galla' Division"
-		type = infantry
-		home = 1854
-	}
-	
-	regiment = {
-		name= "5th 'Galla' Division"
-		type = infantry
-		home = 1862
-	}
 
-	regiment = {
-		name= "6th 'Galla' Division"
-		type = infantry
-		home = 1855
-	}
-	
-	regiment = {
-		name= "7th 'Galla' Division"
-		type = infantry
-		home = 1855
-	}
 }
 
 army = {
 	name = "Tewodrosian infantry"
 	location = 1860
-
 	regiment = {
-		name= "8th 'Galla' Division"
-		type = infantry
-		home = 1863
-	}
-	
-	regiment = {
-		name= "9th 'Galla' Division"
+		name= "4th 'Galla' Division"
 		type = infantry
 		home = 1860
 	}
 
 	regiment = {
-		name= "10th 'Galla' Division"
+		name= "5th 'Galla' Division"
 		type = infantry
-		home = 1855
+		home = 1865
 	}
 
 	regiment = {
-		name= "11th 'Galla' Division"
+		name= "6th 'Galla' Division"
 		type = infantry
-		home = 1859
+		home = 1865
 	}
 
-	regiment = {
-		name= "12th 'Galla' Division"
-		type = infantry
-		home = 1859
-	}
-	
 }
 

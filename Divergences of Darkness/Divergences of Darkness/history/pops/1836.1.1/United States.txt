@@ -4384,26 +4384,26 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 180
+		size = 75
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 480
+		size = 150
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 355
+		size= 150
 
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 3425
+		size = 925
 	}
 }
 #Rockford (44000/11000 POPS)

@@ -1,4 +1,4 @@
-capital = 2436
+capital = 2431
 primary_culture = amazonian
 culture = lotharian 
 religion = catholic

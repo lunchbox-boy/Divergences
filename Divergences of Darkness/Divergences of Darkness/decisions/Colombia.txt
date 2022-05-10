@@ -373,7 +373,6 @@ political_decisions = {
             war = no
             has_global_flag = partial_peace
             UCA = { exists = yes }
-			NOT = { is_our_vassal = UCA }
             CLM = {
                 NOT = { exists = yes }
             }
@@ -402,7 +401,6 @@ political_decisions = {
             has_global_flag = partial_peace
             war = no
             LST = { exists = yes }
-			NOT = { is_our_vassal = LST }
             CLM = {
                 NOT = { exists = yes }
             }

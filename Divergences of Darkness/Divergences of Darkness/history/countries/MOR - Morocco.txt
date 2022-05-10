@@ -1,5 +1,5 @@
 capital = 1680
-primary_culture = castilian
+primary_culture = castillian
 culture = berber
 culture = maghrebi
 religion = sunni

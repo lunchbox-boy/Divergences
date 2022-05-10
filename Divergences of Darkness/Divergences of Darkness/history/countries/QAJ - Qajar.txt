@@ -1,7 +1,7 @@
-capital = 3332
+capital = 1115
 primary_culture = persian
 culture = caspian
-religion = zaydi
+religion = shiite
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
@@ -37,7 +37,7 @@ border_policy = closed_borders
 
 set_country_flag = shiite_country
 
-ruling_party = IRN_conservative_1
+ruling_party = AAA_conservative_1
 upper_house = {
 	fascist = 0
 	liberal = 12
@@ -46,11 +46,6 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
-}
-
-govt_flag = {
-	government = hms_government
-	flag = democracy
 }
 
 # Level_3

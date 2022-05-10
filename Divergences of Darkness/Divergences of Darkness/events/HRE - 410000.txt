@@ -1,4 +1,4 @@
-country_event = { #Unused event? Can't find trigger
+country_event = {
     id = 410001
     title = "HRE1.T"
     desc = "HRE1.D"
@@ -33,7 +33,7 @@ country_event = { #Unused event? Can't find trigger
     }
 }
 
-country_event = { #Unused event? Can't find trigger
+country_event = {
     id = 410002
     title = "410002.T"
     desc = "410002.D"
@@ -57,7 +57,7 @@ country_event = { #Unused event? Can't find trigger
     }
 }
 
-country_event = { #After 410009, Elbian nations choose to be annexed or not into the HRE
+country_event = {
     id = 410003
     title = "HRE3.T"
     desc = "HRE3.D"
@@ -69,7 +69,7 @@ country_event = { #After 410009, Elbian nations choose to be annexed or not into
 
     mean_time_to_happen = { days = 1 }
 
-    option = { #Immediate annexation into the HRE
+    option = {
         name = "410003.A"
         clr_country_flag = prague_proclamation
         set_country_flag = wants_annex
@@ -119,7 +119,7 @@ country_event = { #After 410009, Elbian nations choose to be annexed or not into
         }
     }
 
-    option = { #Negotiations start
+    option = {
         name = "410003.B"
         clr_country_flag = prague_proclamation
         RAP = {
@@ -138,7 +138,7 @@ country_event = { #After 410009, Elbian nations choose to be annexed or not into
                 factor = 1.4
                 ruling_party_ideology = liberal
             }
-            modifier = { #This effectively means that max relations count the same towards both outcomes
+            modifier = {
                 factor = 1.2
                 relation = {
                     who = HLR
@@ -152,7 +152,7 @@ country_event = { #After 410009, Elbian nations choose to be annexed or not into
         }
     }
 
-    option = { #Outright refusal of annexation
+    option = {
         name = "410003.C"
         clr_country_flag = prague_proclamation
         RAP = {
@@ -199,7 +199,7 @@ country_event = { #After 410009, Elbian nations choose to be annexed or not into
     }
 }
 
-country_event = { #After 410009, Rheinish nations choose to be annexed or not into the HRE
+country_event = {
     id = 410004
     title = "HRE4.T"
     desc = "HRE4.D"
@@ -341,7 +341,7 @@ country_event = { #After 410009, Rheinish nations choose to be annexed or not in
     }
 }
 
-country_event = { #After 410009, Danubian nations choose to be annexed or not into the HRE
+country_event = {
     id = 410005
     title = "HRE5.T"
     desc = "HRE5.D"
@@ -484,7 +484,7 @@ country_event = { #After 410009, Danubian nations choose to be annexed or not in
 }
 
 
-country_event = { #Event that sets off the HRE centralisation chain
+country_event = {
     id = 410009
     title = "HRE9.T"
     desc = "HRE9.D"

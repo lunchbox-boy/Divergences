@@ -103,19 +103,7 @@
 	slaves = {
 		culture = nubian
 		religion = sunni
-		size = 43000
-	}
-	
-	slaves = {
-		culture = nubian
-		religion = coptic
-		size = 1500
-	}
-	
-	farmers = {
-		culture = nubian
-		religion = coptic
-		size = 500
+		size = 45000
 	}
 
 	slaves = {
@@ -167,13 +155,7 @@
 	slaves = {
 		culture = nubian
 		religion = sunni
-		size = 20000
-	}
-	
-	slaves = {
-		culture = nubian
-		religion = coptic
-		size = 500
+		size = 20500
 	}
 
 	slaves = {
@@ -230,43 +212,25 @@
 	artisans = {
 		culture = nubian
 		religion = sunni
-		size = 1550
-	}
-
-	artisans = {
-		culture = nubian
-		religion = coptic
-		size = 200
+		size = 1750
 	}
 
 	soldiers = {
 		culture = nubian
 		religion = sunni
-		size = 740
+		size= 740
 	}
 
 	farmers = {
 		culture = nubian
 		religion = sunni
-		size = 31000
-	}
-
-	farmers = {
-		culture = nubian
-		religion = coptic
-		size = 1225
+		size = 32225
 	}
 
 	slaves = {
 		culture = nubian
 		religion = sunni
-		size = 14500
-	}
-	
-	slaves = {
-		culture = nubian
-		religion = sunni
-		size = 500
+		size = 15000
 	}
 
 	aristocrats = {
@@ -327,15 +291,9 @@
 	}
 
 	farmers = {
-		culture = nubian
-		religion = coptic
-		size = 200
-	}
-	
-	farmers = {
 		culture = sudanese
 		religion = sunni
-		size = 41725
+		size = 41925
 	}
 
 	aristocrats = {
@@ -647,13 +605,7 @@
 	farmers = {
 		culture = sudanese
 		religion = sunni
-		size = 4475
-	}
-
-	farmers = {
-		culture = nubian
-		religion = coptic
-		size = 100
+		size = 4575
 	}
 
 	aristocrats = {
@@ -844,13 +796,7 @@
 	farmers = {
 		culture = nubian
 		religion = sunni
-		size = 3415
-	}
-	
-	farmers = {
-		culture = nubian
-		religion = coptic
-		size = 300
+		size = 3715
 	}
 }
 #Nubia Region (236000)
@@ -939,19 +885,7 @@
 	slaves = {
 		culture = nubian
 		religion = sunni
-		size = 6225
-	}
-	
-	farmers = {
-		culture = nubian
-		religion = coptic
-		size = 100
-	}
-	
-	slaves = {
-		culture = nubian
-		religion = coptic
-		size = 400
+		size = 6725
 	}
 
 	aristocrats = {
@@ -1082,12 +1016,6 @@
 		religion = sunni
 		size = 9500
 	}
-	
-	slaves = {
-		culture = nubian
-		religion = coptic
-		size = 100
-	}
 }
 #Atbarah (40000/1000 POPS)
 1837 = {
@@ -1185,18 +1113,6 @@
 		culture = nubian
 		religion = sunni
 		size = 3630
-	}
-	
-	farmers = {
-		culture = nubian
-		religion = coptic
-		size = 250
-	}
-	
-	slaves = {
-		culture = nubian
-		religion = coptic
-		size = 100
 	}
 }
 #Salima (8000/2000 POPS)

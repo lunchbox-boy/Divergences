@@ -585,6 +585,12 @@
         rebel_type = nationalist_rebels
 	}
 
+	clergymen = {
+		culture = mashriqi
+		religion = shiite
+		size = 150
+	}
+
 	artisans = {
 		culture = mashriqi
 		religion = shiite
@@ -596,22 +602,10 @@
 	farmers = {
 		culture = mashriqi
 		religion = shiite
-		size = 10000
+		size = 12475
 		militancy = 9
         rebel_type = nationalist_rebels
 	}
-	
-	clergymen = {
-		culture = mashriqi
-		religion = ismaili
-		size = 150
-	}
-
-	farmers = {
-		culture = mashriqi
-		religion = ismaili
-		size = 2475
-	}	
 
 	clergymen = {
 		culture = syriac

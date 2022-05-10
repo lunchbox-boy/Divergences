@@ -194,44 +194,44 @@
 1178 = {
 	aristocrats = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 950
 	}
 
 	bureaucrats = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 100
 	}
 
 	officers = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 150
 	}
 
 	clergymen = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 500
 	}
 
 	artisans = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 2550
 	}
 
 	soldiers = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size= 2000
 
 	}
 
 	farmers = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 44750
 	}
 
@@ -389,32 +389,32 @@
 
 	aristocrats = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 250
 	}
 
 	clergymen = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 150
 	}
 
 	artisans = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 800
 	}
 
 	soldiers = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size= 150
 
 	}
 
 	farmers = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 12400
 	}
 
@@ -459,32 +459,32 @@
 
 	aristocrats = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 100
 	}
 
 	clergymen = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 150
 	}
 
 	artisans = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 300
 	}
 
 	soldiers = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size= 2000
 
 	}
 
 	farmers = {
 		culture = khaliji
-		religion = zaydi
+		religion = shiite
 		size = 5275
 	}
 

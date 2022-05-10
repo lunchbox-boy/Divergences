@@ -112,19 +112,19 @@
 1208 = {
     clergymen = {
         culture = persian
-        religion = ismaili
+        religion = sunni
         size = 175
     }
 
     artisans = {
         culture = persian
-        religion = ismaili
+        religion = sunni
         size = 850
     }
 
     farmers = {
         culture = persian
-        religion = ismaili
+        religion = sunni
         size = 17450
     }
 

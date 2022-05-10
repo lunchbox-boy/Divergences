@@ -16,12 +16,11 @@ name = "Ethiopian Civil War"
 	}
 
 	war_goal = {
-		casus_belli = acquire_core_state
-		state_province_id = 1848
+		casus_belli = status_quo
 		actor = ADA
 		receiver = AMT
 	}
-	
+
 }
 
 1836.6.6 = {

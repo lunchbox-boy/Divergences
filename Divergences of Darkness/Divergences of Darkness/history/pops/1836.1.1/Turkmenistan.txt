@@ -170,69 +170,96 @@
 #Chardzhou (132000/33000 POPS)   
 1206 = {
 	aristocrats = {
-		culture = uzbek
+		culture = persian
 		religion = sunni
-		size = 225
+		size = 25
 	}
 
 	clergymen = {
-		culture = uzbek
+		culture = persian
 		religion = sunni
-		size = 125
+		size = 25
 	}
 
 	artisans = {
-		culture = uzbek
+		culture = persian
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = uzbek
-		religion = sunni
-		size = 2025
-	}
-
-	farmers = {
-		culture = uzbek
-		religion = sunni
-		size = 12000
-	}
-
-	soldiers = {
-		culture = turkmen
-		religion = sunni
-		size = 1250
-	}
-
-	farmers = {
-		culture = turkmen
-		religion = sunni
-		size = 2025
-	}
-	
-	aristocrats = {
 		culture = persian
+		religion = sunni
+		size= 25
+
+	}
+
+	farmers = {
+		culture = persian
+		religion = sunni
+		size = 1825
+	}
+
+	aristocrats = {
+		culture = turkmen
 		religion = sunni
 		size = 400
 	}
-	
+
 	clergymen = {
-		culture = persian
+		culture = turkmen
 		religion = sunni
 		size = 225
 	}
 
 	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 1100
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = sunni
+		size= 250
+
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 21025
+	}
+
+	aristocrats = {
 		culture = persian
 		religion = sunni
-		size = 1000
+		size = 50
 	}
-	
+
+	clergymen = {
+		culture = persian
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = persian
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = persian
+		religion = sunni
+		size= 75
+
+	}
+
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 8825
+		size = 6925
 	}
 
 	clergymen = {

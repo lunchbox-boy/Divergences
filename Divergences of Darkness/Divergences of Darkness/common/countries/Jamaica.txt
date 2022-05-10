@@ -155,31 +155,26 @@ party = {
 
 unit_names = {
     dreadnought = {
-        "Charles le Téméraire" "La Bourgogne" Ambiorix
+        Bosna Herzceg Dalmacija "Gazi Husrev-beg" "Kotromanici" "Kulin ban" Miljacka Sarajevo "Stjepan II" "Tvrtko I"
     }
     ironclad = {
-        "Comte de Hainaut" "Comte de Namur" "Prince de Liege" "Duc d'Ursel"
+        Bosna Herzceg Dalmacija "Gazi Husrev-beg" "Kotromanici" "Kulin ban" Miljacka Sarajevo "Stjepan II" "Tvrtko I"
     }
     manowar = {
-        "St. Marie" "St. Joris" "St. Franciscus" "St. Jacobus" "St. Petrus" "St. Bonifatius"
+        Bosna Herzceg Dalmacija "Gazi Husrev-beg" "Kotromanici" "Kulin ban" Miljacka Sarajevo "Stjepan II" "Tvrtko I"
     }
     cruiser = {
-        "François Pelsaert" "Louis Boisot" "Olivier Brunel" "Simon de Cordes" "Albert Dorville" "Jessé de Forest" "Louis Hennepin" "Jacob Mahu"
+        Bosna Herzceg Dalmacija "Gazi Husrev-beg" "Kotromanici" "Kulin ban" Miljacka Sarajevo "Stjepan II" "Tvrtko I"
     }
     frigate = {
-        Wielingen Mercator "Willem van Rubroeck" "Simon van Salingen" "Joris van Spilbergen" "Willem Usselincx"
+        Bosna Herzceg Dalmacija "Gazi Husrev-beg" "Kotromanici" "Kulin ban" Miljacka Sarajevo "Stjepan II" "Tvrtko I"
     }
     monitor = {
-        Belgica Brabantia Flandriae Henogovia Limburgia Luxemburgum Vallonia
+        Bosna Herzceg Dalmacija "Gazi Husrev-beg" "Kotromanici" "Kulin ban" Miljacka Sarajevo "Stjepan II" "Tvrtko I"
     }
-    clipper_transport = {
-        Antwerpen Arlon Brugge Brussel Charleroi Gent Hasselt Leuven Liege Mechelen
-        Namur Nieuwpoort Oostende Sluis Zeebrugge
-    }
-    steam_transport = {
-        Dender Dijle IJzer Leie Maas Ourthe Sambre Schelde Semois
-    }
+    clipper_transport = {}
+    steam_transport = {}
     commerce_raider = {
-        "Jan Baert" "Michiel Jacobsen" "Jacob van Brugge" "Willem van der Haegen" "Jacob le Maire" "Pierre van Alstein" "Sebald de Weert" "Cornelis Weus"
+        Bosna Herzceg Dalmacija "Gazi Husrev-beg" "Kotromanici" "Kulin ban" Miljacka Sarajevo "Stjepan II" "Tvrtko I"
     }
 }
