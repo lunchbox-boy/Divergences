@@ -778,7 +778,6 @@ social_reforms = {
 		next_step_only = yes
 		child_labor_legal = {
 			poor_savings_modifier = 0.10
-			global_population_growth = -0.001
 			education_efficiency_modifier = -0.1
 			factory_throughput = 0.1
 			artisan_throughput = 0.1
@@ -795,7 +794,6 @@ social_reforms = {
 		child_labor_illegal = {
 			education_efficiency_modifier = 0.1
 			global_immigrant_attract = 0.05
-			global_population_growth = 0.001
 		}
 	}
 }
