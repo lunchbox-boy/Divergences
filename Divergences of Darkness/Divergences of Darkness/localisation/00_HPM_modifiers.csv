@@ -172,10 +172,6 @@ warship_commissioned_desc;Constructing, delivering or receiving a new, foreign w
 ironclad_commision;Iron Clad Commissions;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
 sino_portuguese_treaty_of_peking_signataire;Signatory of the Treaty of Peking;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
 local_distribution_channels_und_electricity;Commercial Retailers and Electrical Lighting;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
-local_fertilizer;Artificial Fertilizer Use;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
-local_mechanized_mining;Mechanized Mining;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
-local_2nd_industrial_revolution;2nd Industrial Revolution;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
-local_excavators;Excavators and advanced mining equipment;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
 desc_local_distribution_channels_und_electricity;New and efficient modes and structures for the selling and reselling of goods have been implemented in this province, leaving farmers free to tend their fields and electrical lights have been put up on the streets in this province, increasing the efficiency of all local production, as workers work in new and well lit environs.;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;
 freedom_of_religion;Freedom of Religion;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;
 freedom_of_religion_desc;No one is forced or coerced into following any religion in our country, religious minorities have a protected status.;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;

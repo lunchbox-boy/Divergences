@@ -1,14 +1,15 @@
 political_decisions = {
 
 	will_receive = {
+		picture = rgo_gold_silver
 		alert = no
 		potential = {
 			ai = no
 			NOT = { has_country_flag = will_receive_grants }
 			}
-		
-		allow = { 
-			NOT = { has_country_flag = will_receive_grants } 
+
+		allow = {
+			NOT = { has_country_flag = will_receive_grants }
 			ai = no
 			}
 		effect = {
@@ -18,24 +19,8 @@ political_decisions = {
 
 	}
 
-#	will_not_receive = {
-#		alert = no
-#		potential = {
-#			ai = no
-#			has_country_flag = will_receive_grants
-#			}
-#		
-#		allow = { 
-#			has_country_flag = will_receive_grants
-#			}
-#		effect = {
-#			clr_country_flag = will_receive_grants 
-#
-#		}
-#
-#	}
-
 	will_give = {
+		picture = rgo_gold_silver
 		alert = no
 		potential = {
 			ai = no
@@ -50,17 +35,18 @@ political_decisions = {
 
 
 	will_not_give = {
+		picture = rgo_gold_silver
 		alert = no
 		potential = {
 			ai = no
 			has_country_flag = will_give_grants
 		}
-		
-		allow = { 
+
+		allow = {
 			ai = no
 			has_country_flag = will_give_grants }
 		effect = {
-			clr_country_flag = will_give_grants 
+			clr_country_flag = will_give_grants
 			}
 	}
 }
