@@ -1,79 +1,153 @@
 leader = {
+
 	name = "Tahmasp Timurtash"
+
 	type = land
+
 	date = 1836.1.1
-	personality = spirited
-	background = eccentric_genius
+
+	personality = defence_2.1
+	background = attack_0.1
 }
+
+
 
 leader = {
+
 	name = "Adil Artuqid"
+
 	type = land
+
 	date = 1836.1.1
-	personality = inspiring
-	background = megalomaniac
+
+	personality = defence_0.30
+	background = attack_0.1
 }
 
+
+
 army = {
+
 	name = "Timurtash Army"
+
 	location = 1204
+
 	regiment = {
+
 		name= "1. Infantry Brigade"
+
 		type = infantry
+
 		home = 1212
+
 	}
 
+
+
 	regiment = {
+
 		name= "2. Infantry Brigade"
+
 		type = infantry
+
 		home = 1148
+
 	}
 
+
+
 	regiment = {
+
 		name= "3. Infantry Brigade"
+
 		type = infantry
+
 		home = 1147
+
 	}
 
+
+
 	regiment = {
+
 		name= "4. Infantry Brigade"
+
 		type = infantry
+
 		home = 1147
+
 	}
+
 	
+
 	regiment = {
+
 		name= "5. Infantry Brigade"
+
 		type = infantry
+
 		home = 1212
+
 	}
+
 	
+
 	regiment = {
+
 		name= "6. Infantry Brigade"
+
 		type = infantry
+
 		home = 1214
+
 	}
+
 }
 
+
+
 army = {
+
 	location = 1150
+
 	name = "Turkmen Cavalry"
 
-	regiment = {
-		name= "2. Turkmen Cavalry"
-		type = cavalry
-		home = 1204
-	}
+
 
 	regiment = {
+
 		name= "2. Turkmen Cavalry"
+
 		type = cavalry
+
 		home = 1204
+
 	}
 
+
+
 	regiment = {
+
 		name= "2. Turkmen Cavalry"
+
 		type = cavalry
+
+		home = 1204
+
+	}
+
+
+
+	regiment = {
+
+		name= "2. Turkmen Cavalry"
+
+		type = cavalry
+
 		home = 1116
+
 	}
+
+
 
 }

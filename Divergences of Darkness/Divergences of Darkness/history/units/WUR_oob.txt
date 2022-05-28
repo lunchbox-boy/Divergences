@@ -1,42 +1,81 @@
 leader = {
+
 	name = "Karl III"
+
 	type = land
+
 	date = 1836.1.1
-	personality = pragmatic
-	background = toady
+
+	personality = defence_1.10
+	background = attack_0.1
 }
 
+
+
 army = {
+
 	name = "1. Division"
+
 	location = 589
+
 	regiment = {
+
 		name = "1. Reiter-Regiment König Karl" #Anachronistic by 30 years
-		type = hussar
+
+		type = dragoon
+
 		home = 589
+
 	}
+
 	regiment = {
+
 		name = "1. Infanterie-Regiment Königin Olga" #Anachronistic by 30 years
+
 		type = infantry
+
 		home = 589
+
 	}
+
 	regiment = {
+
 		name = "2. Infanterie-Regiment"
+
 		type = infantry
+
 		home = 589
+
 	}
+
 }
 
+
+
 army = {
+
 	name = "2. Division"
+
 	location = 593
+
 	regiment = {
+
 		name = "7. Infanterie-Regiment"
+
 		type = infantry
+
 		home = 593
+
 	}
+
 	regiment = {
+
 		name = "1. Bataillon FußArtillerie"
-		type = artillery
+
+		type = infantry
+
 		home = 593
+
 	}
+
 }

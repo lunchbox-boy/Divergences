@@ -1,23 +1,43 @@
 leader = {
+
 	name = "Sayid Abdullah"
+
 	type = land
+
 	date = 1836.1.1
-	personality = glory_hound
-	background = powerful_friends
+
+	personality = defence_1.10
+	background = attack_0.1
 }
 
+
+
 army = {
+
 	name = "Army of the Khanate of Khiva"
+
 	location = 1191
-	regiment = {
-		name= "1.Yomud"
-		type = hussar
-		home = 1182
-	}
 
 	regiment = {
-		name= "2.Yomud"
-		type = hussar
+
+		name= "1.Yomud"
+
+		type = dragoon
+
 		home = 1182
+
 	}
+
+
+
+	regiment = {
+
+		name= "2.Yomud"
+
+		type = dragoon
+
+		home = 1182
+
+	}
+
 }

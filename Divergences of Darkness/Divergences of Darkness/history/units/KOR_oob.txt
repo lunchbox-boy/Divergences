@@ -1,96 +1,182 @@
 leader = {
+
 	name = "Wi Man"
+
 	type = land
+
 	date = 1836.1.1
-	personality = harsh
-	background = cavalry_school
+
+	personality = defence_0.30
+	background = attack_0.1
 }
 
+
+
 leader = {
+
 	name = "Hyeokgeose Geoseogan"
+
 	type = land
+
 	date = 1836.1.1
-	personality = hellbent
-	background = pawn
+
+	personality = defence_3.1
+	background = attack_0.1
 }
 
+
+
 leader = {
+
 	name = "Kwon Hyong"
+
 	type = land
+
 	date = 1836.1.1
-	personality = irate
-	background = drillmaster
+
+	personality = defence_0.30
+	background = attack_0.1
 }
 
+
+
 leader = {
+
 	name = "Bak Jip"
+
 	type = land
+
 	date = 1836.1.1
-	personality = harsh
-	background = innovative_tactician
+
+	personality = defence_0.30
+	background = attack_1.1
 }
 
+
+
 leader = {
+
 	name = "Kim Shinjong"
+
 	type = land
+
 	date = 1836.1.1
-	personality = resourceful
-	background = natural_born_leader
+
+	personality = defence_1.2
+	background = attack_0.1
 }
+
+
 
 army = {
+
 	name = "Joseon Army"
+
 	location = 1624
+
 	regiment = {
+
 		name= "1.Royal Infantry"
+
 		type = infantry
+
 		home = 1624
+
 	}
 
+
+
 	regiment = {
+
 		name= "2. Royal Infantry"
+
 		type = infantry
+
 		home = 1625
+
 	}
 
+
+
 	regiment = {
+
 		name= "3. Royal Infantry"
+
 		type = infantry
+
 		home = 1635
+
 	}
+
   
+
   regiment = {
+
 		name= "1. Cavalry"
-		type = hussar
+
+		type = dragoon
+
 		home = 1636
+
 	}
 
+
+
 	regiment = {
-		name= "1. Artillery"
-		type = artillery
+
+		name= "1. infantry"
+
+		type = infantry
+
 		home = 1637
+
 	}
+
   
+
 	regiment = {
+
 		name= "1. Infantry"
+
 		type = infantry
+
 		home = 1619
+
 	}   
+
 	regiment = {
+
 		name= "2. Infantry"
+
 		type = infantry
+
 		home = 1620
-	}
-	regiment = {
-		name= "3. Infantry"
-		type = infantry
-		home = 1621
+
 	}
 
 	regiment = {
-		name= "1. Hussar"
-		type = hussar
-		home = 1622
+
+		name= "3. Infantry"
+
+		type = infantry
+
+		home = 1621
+
 	}
+
+
+
+	regiment = {
+
+		name= "1. dragoon"
+
+		type = dragoon
+
+		home = 1622
+
+	}
+
+
 
 }
+

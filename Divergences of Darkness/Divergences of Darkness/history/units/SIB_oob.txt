@@ -1,59 +1,115 @@
 leader = {
+
 	name = "Taibugid Khan"
+
 	type = land
+
 	date = 1836.1.1
-	personality = disillusioned
-	background = exranker
+
+	personality = defence_0.30
+	background = attack_0.1
 }
 
+
+
 army = {
+
 	name = "Army of the Khan"
+
 	location = 1059
+
 	regiment = {
+
 		name= "1st Tatars"
+
 		type = infantry
+
 		home = 1066
+
 	}
 
+
+
 	regiment = {
+
 		name= "2nd Tatars"
+
 		type = infantry
+
 		home = 1066
+
 	}
 
+
+
 	regiment = {
+
 		name= "3rd Tatars"
-		type = hussar
+
+		type = dragoon
+
 		home = 1066
-	}
-	
-	regiment = {
-		name= "4th Tatars"
-		type = infantry
-		home = 2690
+
 	}
 
+	
+
 	regiment = {
-		name= "5th Tatars"
+
+		name= "4th Tatars"
+
 		type = infantry
-		home = 1059
+
+		home = 2690
+
 	}
+
+
+
+	regiment = {
+
+		name= "5th Tatars"
+
+		type = infantry
+
+		home = 1059
+
+	}
+
+
 
 }
 
+
+
 army = {
+
 	name = "Siberian Army"
+
 	location = 1064
-	regiment = {
-		name= "6th Tatars"
-		type = infantry
-		home = 1059
-	}
 
 	regiment = {
-		name= "7th Tatars"
+
+		name= "6th Tatars"
+
 		type = infantry
+
 		home = 1059
+
 	}
+
+
+
+	regiment = {
+
+		name= "7th Tatars"
+
+		type = infantry
+
+		home = 1059
+
+	}
+
+
 
 }

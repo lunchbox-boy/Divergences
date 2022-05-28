@@ -1,73 +1,144 @@
 leader = {
+
 	name = "Temür Öljeytü"
+
 	type = land
+
 	date = 1836.1.1
-	personality = vicious
-	background = unqualified
+
+	personality = defence_2.1
+	background = attack_0.1
 }
+
+
 
 army = {
+
 	name = "Imperial Mongol Army"
+
 	location = 1535
+
 	regiment = {
+
 		name= "1. Brigade"
+
 		type = infantry
+
 		home = 1532
+
 	}
 
+
+
 	regiment = {
+
 		name= "2. Brigade"
+
 		type = infantry
+
 		home = 1532
+
 	}
 
+
+
 	regiment = {
+
 		name= "3. Brigade"
+
 		type = infantry
+
 		home = 1532
+
 	}
 
+
+
 	regiment = {
+
 		name= "4. Brigade"
+
 		type = infantry
+
 		home = 1532
+
 	}
 
+
+
 	regiment = {
+
 		name= "5. Brigade"
-		type = hussar
+
+		type = dragoon
+
 		home = 1532
+
 	}
 
+
+
 	regiment = {
+
 		name= "6. Brigade"
-		type = hussar
+
+		type = dragoon
+
 		home = 1532
+
 	}
 
+
+
 	regiment = {
+
 		name= "7. Brigade"
-		type = hussar
+
+		type = dragoon
+
 		home = 1532
+
 	}
 
+
+
 	regiment = {
+
 		name= "8. Brigade"
-		type = hussar
+
+		type = dragoon
+
 		home = 1465
+
 	}
 
+
+
 	regiment = {
+
 		name= "9. Brigade"
-		type = hussar
+
+		type = dragoon
+
 		home = 1075
+
 	}
 
+
+
 	regiment = {
+
 		name= "10. Brigade"
-		type = hussar
+
+		type = dragoon
+
 		home = 1075
+
 	}
+
+
 
 }
+
+
 

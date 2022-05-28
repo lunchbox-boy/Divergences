@@ -1,24 +1,46 @@
 leader = {
+
 	name = "Ape-Huci-Kamuy"
+
 	type = land
+
 	date = 1836.1.1
-	personality = stalwart
-	background = natural_born_leader
+
+	personality = defence_2.1
+	background = attack_3.5
 }
+
+
 
 army = {
+
 	name = "Army of Ainu"
+
 	location = 1642
-	regiment = {
-		name= "1. Ainu"
-		type = infantry
-		home = 1642
-	}
 
 	regiment = {
-		name= "2. Ainu"
+
+		name= "1. Ainu"
+
 		type = infantry
+
 		home = 1642
+
 	}
+
+
+
+	regiment = {
+
+		name= "2. Ainu"
+
+		type = infantry
+
+		home = 1642
+
+	}
+
 }
+
+
 

@@ -1,18 +1,34 @@
 leader = {
+
 	name = "Ceferino Namuncurá"
+
 	type = land
+
 	date = 1836.1.1
-	personality = romantic
-	background = natural_born_leader
+
+	personality = defence_2.1
+	background = attack_0.1
 }
 
+
+
 army = {
+
 	name = "Army of the Mapuche"
+
 	location = 2333
+
 	regiment = {
+
 		name = "1. Royal infantry"
+
 		type = infantry
+
 		home = 2334
+
 	}
+
 }
+
+
 

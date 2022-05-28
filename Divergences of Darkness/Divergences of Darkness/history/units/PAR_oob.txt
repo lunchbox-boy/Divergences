@@ -1,17 +1,31 @@
 leader = {
+
 	name = "Carlo V"
+
 	type = land
+
 	date = 1836.1.1
-	personality = doughty
-	background = spoiled
+
+	personality = defence_2.1
+	background = attack_3.5
 }
 
+
+
 army = {
+
 	name = "Esercito di Parma"
+
 	location = 738
+
 	regiment = {
+
 		name= "1.Fanteria di Linea"
+
 		type = infantry
+
 		home = 738
+
 	}
+
 }

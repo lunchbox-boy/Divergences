@@ -1,17 +1,31 @@
 leader = {
+
 	name = "Karl von Bismarck"
+
 	type = land
+
 	date = 1836.1.1
-	personality = relentless
-	background = bureaucrat_speed
+
+	personality = defence_1.6
+	background = attack_1.1
 }
 
+
+
 army = {
+
 	name = "Frankfurter Armee"
+
 	location = 564
+
 	regiment = {
+
 		name= "1. Frankfurter Infanterie-Brigade"
+
 		type = infantry
+
 		home = 564
+
 	}	            
+
 }

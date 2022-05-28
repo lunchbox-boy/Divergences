@@ -640,16 +640,16 @@ fertilizer_factory = {
 fort = {
 	type = fort
 	goods_cost = {
-		lumber = 100
-		cement = 100
-		explosives = 50
-		small_arms = 50
-		artillery = 40
+		lumber = 300
+		cement = 300
+		explosives = 510
+		small_arms = 510
+		artillery = 120
 	}
-	time = 1080
+	time = 365
 	visibility = yes
 	onmap = yes
-	max_level = 6
+	max_level = 3
 	province = yes
 	fort_level = 1
 }

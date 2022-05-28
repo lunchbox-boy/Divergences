@@ -1,68 +1,131 @@
 leader = {
+
 	name = "Mohd Khalil"
+
 	type = land
+
 	date = 1836.1.1
-	personality = earnest
-	background = cursed_luck
+
+	personality = defence_0.30
+	background = attack_0.1
 }
+
+
 
 leader = {
+
 	name = "Thirathep Siyaphan"
+
 	type = land
+
 	date = 1836.1.1
-	personality = resolute
-	background = clueless
+
+	personality = defence_3.1
+	background = attack_0.1
 }
 
+
+
 army = {
+
 	name = "Army of the Sultan of Pattani"
+
 	location = 1392
+
 	regiment = {
+
 		name= "1.Pattani State Troops"
+
 		type = infantry
+
 		home = 1392	
+
 	}
 
+
+
 	regiment = {
+
 		name= "2.Pattani State Troops"
+
 		type = infantry
+
 		home = 1392
+
 	}
 
+
+
 	regiment = {
+
 		name= "3.Pattani State Troops"
+
 		type = infantry
+
 		home = 1392	
+
 	}
+
 }
+
+
+
+
 
 
 
 army = {
+
 	name = "Army of the Sultan of Malacca"
+
 	location = 1386
+
 	regiment = {
+
 		name= "1.Malacca State Troops"
+
 		type = infantry
+
 		home = 1386	}
 
+
+
 	regiment = {
+
 		name= "2.Malacca State Troops"
+
 		type = infantry
+
 		home = 1386	}
 
+
+
 	regiment = {
+
 		name= "3.Malacca State Troops"
-		type = hussar
+
+		type = dragoon
+
 		home = 1386	}
+
+
 
 }
+
+
 
 navy = {
+
 	name = "Trade Fleet"
+
 	location = 1386
+
 	ship = {
+
 		name= "Transport Flotilla"
+
 		type = clipper_transport
+
 	}
+
 }

@@ -1,41 +1,79 @@
 leader = {
+
 	name = "Jembulat Shebez"
+
 	type = land
+
 	date = 1836.1.1
-	personality = clever
-	background = poet
+
+	personality = defence_2.1
+	background = attack_2.1
 }
 
+
+
 army = {
+
 	name = "Army of Beshtau"
+
 	location = 1056
+
 	regiment = {
+
 		name= "1.Infantry"
+
 		type = infantry
+
 		home = 1056
+
 	}
 
+
+
 	regiment = {
+
 		name= "2.Infantry"
+
 		type = infantry
+
 		home = 1056
+
 	}
 
+
+
 	regiment = {
+
 		name= "3.Infantry"
+
 		type = infantry
+
 		home = 1051
+
 	}
 
+
+
 	regiment = {
+
 		name= "4.Infantry"
+
 		type = infantry
+
 		home = 1051
+
 	}
 
+
+
 	regiment = {
+
 		name= "5.Infantry"
+
 		type = infantry
+
 		home = 1049
+
 	}
+
 }

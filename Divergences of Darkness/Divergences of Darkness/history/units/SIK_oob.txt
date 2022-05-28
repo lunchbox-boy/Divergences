@@ -1,17 +1,31 @@
 leader = {
+
 	name = "Madhu Sood"
+
 	type = land
+
 	date = 1836.1.1
-	personality = relentless
-	background = school_of_the_bayonet
+
+	personality = defence_1.8
+	background = attack_1.1
 }
 
+
+
 army = {
+
 	name = "Army of the Chogyal of Sikkim"
+
 	location = 1328
+
 	regiment = {
+
 		name= "1st Gurkha"
+
 		type = infantry
+
 		home = 1328
+
 	}
+
 }

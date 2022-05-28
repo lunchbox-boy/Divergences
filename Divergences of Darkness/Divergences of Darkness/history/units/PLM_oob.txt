@@ -1,28 +1,53 @@
 leader = {
+
 	name = "Santana Putra"
+
 	type = land
+
 	date = 1836.1.1
-	personality = shirker
-	background = natural_born_leader
+
+	personality = defence_0.30
+	background = attack_2.1
 }
 
+
+
 army = {
+
 	name = "Army of the Sultan of Palembang"
+
 	location = 1399
-	regiment = {
-		name= "1.Palembang State Troops"
-		type = infantry
-		home = 1399	}
 
 	regiment = {
-		name= "2.Palembang State Troops"
+
+		name= "1.Palembang State Troops"
+
 		type = infantry
+
+		home = 1399	}
+
+
+
+	regiment = {
+
+		name= "2.Palembang State Troops"
+
+		type = infantry
+
 		home = 1399
+
 	}
 
+
+
 	regiment = {
+
 		name= "3.Palembang State Troops"
+
 		type = infantry
+
 		home = 1399	}
+
+
 
 }

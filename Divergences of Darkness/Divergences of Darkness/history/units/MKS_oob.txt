@@ -1,18 +1,34 @@
 leader = {
+
 	name = "Supomo Guntur"
+
 	type = land
+
 	date = 1836.1.1
-	personality = glory_hound
-	background = school_of_firepower
+
+	personality = defence_0.30
+	background = attack_0.1
 }
 
+
+
 army = {
+
 	name = "Army of Makassar"
+
 	location = 1430
+
 	regiment = {
+
 		name= "1.Volunteer Brigade"
+
 		type = infantry
+
 		home = 1430
+
 	}
+
 }
+
+
 

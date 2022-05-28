@@ -1,26 +1,50 @@
 leader = {
+
 	name = "Pietro Berio"
+
 	type = land
+
 	date = 1836.1.1
-	personality = unsound
-	background = priest
+
+	personality = defence_0.30
+	background = attack_1.1
 }
+
+
 
 army = {
+
 	name = "Esercito Pontificio"
+
 	location = 749
-	regiment = {
-		name= "1. Zuavi Pontifici"
-		type = infantry
-		home = 749
-	}
 
 	regiment = {
-		name= "4. Zuavi Pontifici"
-		type = artillery
-		home = 751
+
+		name= "1. Zuavi Pontifici"
+
+		type = infantry
+
+		home = 749
+
 	}
+
+
+
+	regiment = {
+
+		name= "4. Zuavi Pontifici"
+
+		type = infantry
+
+		home = 751
+
+	}
+
 }
+
+
+
+
 
 
 

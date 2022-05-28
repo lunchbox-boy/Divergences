@@ -1,22 +1,4 @@
-schrapnel_standard_design = {
-	limit = { steel_breech_loaded_artillery = 1 } #1870
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = heavy_artillery
-		}
-		modifier = {
-			factor = 3
-			great_war_experience = 1
-		}
-	}
-	effect = {
-		artillery = {
-			attack = 1
-		}
-	}
-}
+
 
 barbed_wire_defense = {
 	limit = { deep_defense_system = 1 } #1870

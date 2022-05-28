@@ -1,104 +1,392 @@
 
 
+
+
+
+
+
+
 FUN = { 
+
+
+
 	value = 50		#relation
+
+
+
 }
+
+
+
+
+
+
 
 AJU = { 
+
+
+
 	value = 75		#relation
+
+
+
 }
 
 
+
+
+
+
+
+
+
+
+
 leader = {
+
+
+
 	name = "Ahmad ibn Ibrihim al-Ghazi"
+
+
+
 	type = land
+
+
+
 	date = 1836.1.1
-	personality = resourceful
-	background = war_college
+
+
+
+	personality = defence_0.30
+	background = attack_0.1
 }
 
+
+
+
+
+
+
 leader = {
+
+
+
 	name = "Mahamud Afrah"
+
+
+
 	type = land
+
+
+
 	date = 1836.1.1
-	personality = diplomatic
-	background = aristocrat
+
+
+
+	personality = defence_0.30
+	background = attack_3.5
 }
 
+
+
+
+
+
+
 leader = {
+
+
+
 	name = "Naleye Adeer"
+
+
+
 	type = land
+
+
+
 	date = 1836.1.1
-	personality = hellbent
-	background = disgraced
+
+
+
+	personality = defence_0.30
+	background = attack_2.1
 }
+
+
+
+
+
+
 
 leader = {
+
+
+
 	name = "Dalmar Aduk"
+
+
+
 	type = land
+
+
+
 	date = 1836.1.1
-	personality = fanatic
-	background = incompetent
+
+
+
+	personality = defence_0.30
+	background = attack_1.1
 }
 
+
+
+
+
+
+
 army = {
+
+
+
 	name = "Freedom Warriors"
+
+
+
 	location = 1866
-	regiment = {
-		name= "1st Freedom Division"
-		type = infantry
-		home = 1866
-	}
+
+
 
 	regiment = {
-		name= "2nd Freedom Division"
+
+
+
+		name= "1st Freedom Division"
+
+
+
 		type = infantry
+
+
+
 		home = 1866
+
+
+
 	}
-	
+
+
+
+
+
+
+
 	regiment = {
+
+
+
+		name= "2nd Freedom Division"
+
+
+
+		type = infantry
+
+
+
+		home = 1866
+
+
+
+	}
+
+
+
+	
+
+
+
+	regiment = {
+
+
+
 		name= "3rd Freedom Division"
+
+
+
 		type = infantry
+
+
+
 		home = 1861
+
+
+
 	}
+
+
+
 	
+
+
+
 	regiment = {
+
+
+
 		name= "4th Freedom Division"
+
+
+
 		type = infantry
+
+
+
 		home = 1861
+
+
+
 	}
+
+
+
 	
+
+
+
 	regiment = {
+
+
+
 		name= "5th Freedom Division"
+
+
+
 		type = infantry
+
+
+
 		home = 1865
+
+
+
 	}
+
+
+
 }
+
+
+
+
+
+
 
 army = {
+
+
+
 	name = "Army of the Sultan"
+
+
+
 	location = 1873
-	regiment = {
-		name= "1st Sultan's Division"
-		type = infantry
-		home = 1867
-	}
+
+
 
 	regiment = {
-		name= "2nd Sultan's Division"
+
+
+
+		name= "1st Sultan's Division"
+
+
+
 		type = infantry
+
+
+
 		home = 1867
+
+
+
 	}
-	
+
+
+
+
+
+
+
 	regiment = {
-		name= "3rd Sultan's Division"
+
+
+
+		name= "2nd Sultan's Division"
+
+
+
 		type = infantry
-		home = 1873
+
+
+
+		home = 1867
+
+
+
 	}
+
+
+
 	
+
+
+
 	regiment = {
-		name= "4th Sultan's Division"
-		type = cavalry
-		home = 1865
+
+
+
+		name= "3rd Sultan's Division"
+
+
+
+		type = infantry
+
+
+
+		home = 1873
+
+
+
 	}
+
+
+
+	
+
+
+
+	regiment = {
+
+
+
+		name= "4th Sultan's Division"
+
+
+
+		type = cavalry
+
+
+
+		home = 1865
+
+
+
+	}
+
+
+
 }
+
+
+

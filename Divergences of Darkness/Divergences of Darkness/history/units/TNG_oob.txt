@@ -1,189 +1,371 @@
 TAI = {
+
    value = -20
+
    truce_until = "1840.1.1"
+
 }
 
+
+
 leader = {
+
 	name = "Zheng Jing"
+
 	type = land
+
 	date = 1836.1.1
-	personality = undisciplined
-	background = hussar_school
+
+	personality = defence_1.3
+	background = attack_1.1
 }   
+
 leader = {
+
 	name = "Li Zicheng"
+
 	type = land
+
 	date = 1836.1.1
-	personality = choleric
-	background = womanizer
+
+	personality = defence_3.1
+	background = attack_2.1
 }
+
+
+
 
 
 leader = {
+
 	name = "Zheng Keshuang"
+
 	type = sea
+
 	date = 1836.1.1
-	personality = shrinking_violet
-	background = aristocrat
+
+	personality = defence_0.30
+	background = attack_0.1
 }
+
+
 
 army = {
+
 	name = "Army of the Phoenix Emperor"
+
 	location = 1610 
+
   
+
 	regiment = {
+
 		name= "1st Modern infantry"
+
 		type = infantry
+
 		home = 2562
+
 	}
 
+
+
 	regiment = {
+
 		name= "2nd Modern infantry"
+
 		type = infantry
+
 		home = 2562
+
 	}
 
+
+
 	regiment = {
+
 		name= "3rd Modern infantry"
+
 		type = infantry
+
 		home = 1487
+
 	}
+
 	
+
 	regiment = {
+
 		name= "4th Modern infantry"
+
 		type = infantry
+
 		home = 1487
+
 	}
+
 	
+
 	regiment = {
-		name= "1st Artillery"
-		type = artillery
+
+		name= "1st infantry"
+
+		type = infantry
+
 		home = 1611
+
 	}
+
 	
+
 	regiment = {
-		name= "1. Hussar"
-		type = hussar
+
+		name= "1. dragoon"
+
+		type = dragoon
+
 		home = 1611
+
 	}
+
 	
+
 	regiment = {
+
 		name= "1. Brigade"
+
 		type = infantry
+
 		home = 1494
+
 	}
 
+
+
 	regiment = {
+
 		name= "2. Brigade"
+
 		type = infantry
+
 		home = 1494
+
 	}
 
+
+
 	regiment = {
+
 		name= "3. Brigade"
+
 		type = infantry
+
 		home = 1494
+
 	}
 
+
+
 	regiment = {
+
 		name= "4. Brigade"
+
 		type = infantry
+
 		home = 1497
+
 	}
 
+
+
 	regiment = {
-		name= "2nd Artillery"
-		type = artillery
+
+		name= "2nd infantry"
+
+		type = infantry
+
 		home = 1497
+
 	}
+
 	
+
 	regiment = {
-		name= "2nd hussar"
-		type = hussar
+
+		name= "2nd dragoon"
+
+		type = dragoon
+
 		home = 1482
+
 	}
+
 }
+
+
 
 navy = {
+
 	name = "Fleet of the Phoenix Emperor"
+
 	location = 1482
+
   
+
   ship = {
+
 		name= "Shanghai"
+
 		type = manowar
+
 	}           
+
   
+
   ship = {
+
 		name= "Beijing"
+
 		type = manowar
+
 	}
+
 	
+
 	ship = {
+
 		name= "Fei Hung"
+
 		type = frigate
+
 	}
 
+
+
 	ship = {
+
 		name= "Hai Yung"
+
 		type = frigate
+
 	}
+
   
+
   ship = {
+
 		name= "Nanjing"
+
 		type = frigate
+
 	}
 
+
+
 	ship = {
+
 		name= "Ming"
+
 		type = frigate
+
 	}
 
+
+
 	ship = {
+
 		name= "Jiangsu"
+
 		type = frigate
+
 	}
 
+
+
 	ship = {
+
 		name= "Guangzhou"
+
 		type = frigate
+
 	}
 
+
+
 	ship = {
+
 		name= "Transport Flotilla"
+
 		type = clipper_transport
+
 	}
 
+
+
 	ship = {
+
 		name= "Transport Flotilla"
+
 		type = clipper_transport
+
 	}
 
+
+
 	ship = {
+
 		name= "Transport Flotilla"
+
 		type = clipper_transport
+
 	}
 
+
+
 	ship = {
+
 		name= "1st Transport"
+
 		type = clipper_transport
+
 	}
+
 	
+
 	ship = {
+
 		name= "2nd Transport"
+
 		type = clipper_transport
+
 	}
+
+
 
 }
+
+
+
 
 
 TAI = {
+
 	value = -150		#relation
+
 }
+
+
 
 MIG = { 
+
 	value = -150 		#relation
+
 }
 
+
+
 TNG = { 
+
 	value = -150 		#relation
+
 }

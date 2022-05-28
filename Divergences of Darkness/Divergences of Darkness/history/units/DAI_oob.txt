@@ -1,79 +1,154 @@
 leader = {
+
 	name = "Gia Long"
+
 	type = land
+
 	date = 1836.1.1
-	personality = drillmaster
-	background = old_school
+
+	personality = defence_2.1
+	background = attack_0.1
 }
+
+
 
 leader = {
+
 	name = "Bho Dai"
+
 	type = land
+
 	date = 1836.1.1
-	personality = active_p
-	background = war_college
+
+	personality = defence_1.4
+	background = attack_0.1
 }
 
+
+
 army = {
+
 	name = "Imperial Nguyen Army"
+
 	location = 1375
+
 	regiment = {
+
 		name= "1. Brigade"
+
 		type = infantry
+
 		home = 1371
+
 	}
 
+
+
 	regiment = {
+
 		name= "2. Brigade"
+
 		type = infantry
+
 		home = 1371
+
 	}
 
+
+
 	regiment = {
+
 		name= "3. Brigade"
+
 		type = infantry
+
 		home = 1374
+
 	}
 
+
+
 	regiment = {
+
 		name= "4. Brigade"
+
 		type = infantry
+
 		home = 1374
+
 	}
 
+
+
 	regiment = {
+
 		name= "5. Brigade"
+
 		type = infantry
+
 		home = 1356
+
 	}
+
+
 
 }
+
+
 
 army = {
+
 	name = "Northern Army"
+
 	location = 1369
+
 	regiment = {
+
 		name= "1. Brigade"
+
 		type = infantry
+
 		home = 1356
+
 	}
 
+
+
 	regiment = {
+
 		name= "2. Brigade"
+
 		type = infantry
+
 		home = 1356
+
 	}
 
+
+
 	regiment = {
+
 		name= "3. Brigade"
+
 		type = infantry
+
 		home = 1603
+
 	}
 
+
+
 	regiment = {
+
 		name= "4. Brigade"
+
 		type = infantry
+
 		home = 1603
+
 	}
+
 }
+
+
 

@@ -1,37 +1,72 @@
 leader = {
+
 	name = "Antun Simic"
+
 	type = land
+
 	date = 1836.1.1
-	personality = glory_hound
-	background = hussar_school
+
+	personality = defence_0.30
+	background = attack_3.5
 }
 
+
+
 army = {
+
 	name = "Army of Croatia"
+
 	location = 771
+
 	regiment = {
+
 		name= "1.1st Division"
-		type = cuirassier
+
+		type = dragoon
+
 		home = 771
+
 	}
+
 	regiment = {
+
 		name= "2.1st Division"
-		type = artillery
+
+		type = infantry
+
 		home = 771
+
 	}
+
 	regiment = {
+
 		name= "3.1st Division"
+
 		type = infantry
+
 		home = 788
+
 	}
+
 	regiment = {
+
 		name= "4.1st Division"
+
 		type = infantry
+
 		home = 780
+
 	}
+
 	regiment = {
+
 		name = "5.1st Division"
+
 		type = infantry
+
 		home = 780
+
 	}
+
 }
+

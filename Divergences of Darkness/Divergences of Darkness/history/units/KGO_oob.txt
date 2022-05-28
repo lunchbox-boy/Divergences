@@ -1,31 +1,59 @@
 leader = {
+
 	name = "Lukeni Lua"
+
 	type = land
+
 	date = 1836.1.1
-	personality = stouthearted
-	background = expert_raider
+
+	personality = defence_0.30
+	background = attack_0.1
 }
 
+
+
 army = {
+
 	name = "Royal Army"
+
 	location = 1987	regiment = {
+
 		name= "1. infantry Brigade"
+
 		type = infantry
+
 		home = 1987	}
 
+
+
 	regiment = {
+
 		name= "2. infantry Brigade"
+
 		type = infantry
+
 		home = 1987	}
 
+
+
 	regiment = {
+
 		name= "3. infantry Brigade"
+
 		type = infantry
+
 		home = 1987	}
 
+
+
 	regiment = {
+
 		name= "4. infantry Brigade"
+
 		type = infantry
+
 		home = 1987
+
 	}
+
 }

@@ -1,17 +1,31 @@
 leader = {
+
 	name = "Singh Bhati"
+
 	type = land
+
 	date = 1836.1.1
-	personality = wretched
-	background = exranker
+
+	personality = defence_0.30
+	background = attack_0.1
 }
 
+
+
 army = {
+
 	name = "Army of the Maharawal of Jaisalmer"
+
 	location = 1265
+
 	regiment = {
+
 		name= "1. infantry"
+
 		type = infantry
+
 		home = 1265
+
 	}
+
 }

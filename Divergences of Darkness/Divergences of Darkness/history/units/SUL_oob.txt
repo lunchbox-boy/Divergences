@@ -1,26 +1,49 @@
 leader = {
+
 	name = "Muedzul Lail"
+
 	type = land
+
 	date = 1836.1.1
-	personality = earnest
-	background = politician
+
+	personality = defence_2.1
+	background = attack_0.1
 }
+
+
 
 army = {
+
 	name = "Sulu Army"
+
 	location = 1397
+
 	regiment = {
+
 		name= "1. Brigade"
+
 		type = irinfantry
+
 		home = 1397
+
 	}
+
 }
 
+
+
 navy = {
+
 	name = "Sulu Fleet"
+
 	location = 1464
+
 		ship = {
+
 		name= "1. Transport"
+
 		type = clipper_transport
+
 	}
+
 }

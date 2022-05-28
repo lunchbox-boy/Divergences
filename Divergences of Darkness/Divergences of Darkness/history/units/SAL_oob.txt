@@ -1,20 +1,37 @@
 #Sphere of Influence
 
+
+
 leader = {
+
 	name = "Anton Schremmer"
+
 	type = land
+
 	date = 1836.1.1
-	personality = pragmatic
-	background = engineer
+
+	personality = defence_0.30
+	background = attack_3.5
 }
 
+
+
 #Army
+
 army = {
+
 	name = "I. Armee"
+
 	location = 613
+
 	regiment = {
+
 		name= "1.1. Infanteriedivision"
+
 		type = infantry
+
 		home = 613
+
 	}
+
 }

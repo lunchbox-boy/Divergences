@@ -1,28 +1,54 @@
 leader = {
+
 	name = "Apirana Ngata"
+
 	type = land
+
 	date = 1836.1.1
-	personality = aggressive
-	background = expert_raider
+
+	personality = defence_2.1
+	background = attack_0.1
 }
+
+
 
 army = {
+
 	name = "Army of the Maoris"
+
 	location = 2509
+
 	regiment = {
+
 		name= "1. Maori infantry"
+
 		type = infantry
+
 		home = 2509
+
 	}
+
 }
+
+
 
 navy = {
+
 	name = "Trading Fleet"
+
 	location = 2509
 
+
+
 	ship = {
+
 		name= "Aotearoa"
+
 		type = clipper_transport
+
 	}
+
 }
+
+
 

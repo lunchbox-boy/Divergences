@@ -148,7 +148,6 @@ strategic_mobility = {
 	army_base = {
 		supply_consumption = 0.10
 	}
-	max_fort = 1
 	dig_in_cap = 1
 
 	ai_chance = {
@@ -291,9 +290,6 @@ point_defense_system = {
 	year = 1850
 	cost = 10800
 	unciv_military = yes
-	engineer = {
-		support = 0.25
-	}
 	army_base = {
 		supply_consumption = 0.20
 	}
@@ -439,13 +435,10 @@ deep_defense_system = {
 	year = 1870
 	cost = 14400
 	unciv_military = yes
-	engineer = {
-		support = 0.25
-	}
+	
 	army_base = {
 		supply_consumption = 0.20
 	}
-	max_fort = 1
 	dig_in_cap = 1
 
 	ai_chance = {
@@ -671,7 +664,6 @@ modern_army_doctrine = {
 		supply_consumption = 0.20
 	}
 
-	max_fort = 1
 	dig_in_cap = 1
 
 	ai_chance = {
@@ -943,7 +935,6 @@ muzzle_loaded_rifles = {
 	year = 1836
 	cost = 7200
 	unciv_military = yes
-	activate_unit = engineer
 
 	combat_width = -2
 
@@ -1078,7 +1069,6 @@ breech_loaded_rifles = {
 	year = 1850
 	cost = 10800
 
-	activate_unit = guard
 	unciv_military = yes
 
 	combat_width = -2
@@ -1624,7 +1614,19 @@ bronze_muzzle_loaded_artillery = {
 	year = 1836
 	cost = 3600
 	unciv_military = yes
-	activate_unit = artillery
+
+	irregular = {
+		attack = 0.1
+		defence = 0.1
+		supply_consumption = 0.05
+	}
+	
+	infantry = {
+		attack = 0.25
+		defence = 0.25
+		supply_consumption = 0.1
+	}
+	
 
 	ai_chance = {
 		factor = 4
@@ -1664,11 +1666,30 @@ iron_muzzle_loaded_artillery = {
 	year = 1836
 	cost = 7200
 	unciv_military = yes
-	artillery = {
-		attack = 0.25
-		support = 0.5
+
+	irregular = {
+		attack = 0.15
+		defence = 0.15
+		support = 0.1
 		supply_consumption = 0.15
 	}
+	
+	infantry = {
+		attack = 0.25
+		defence = 0.25
+		support = 0.1
+		supply_consumption = 0.15
+	}
+	cavalry = {
+		support = 0.1
+		supply_consumption = 0.15
+	}
+	dragoon = {
+		support = 0.1
+		supply_consumption = 0.15
+	}
+	
+	
 
 	ai_chance = {
 		factor = 4
@@ -1801,10 +1822,32 @@ iron_breech_loaded_artillery = {
 	year = 1850
 	cost = 10800
 	unciv_military = yes
-	artillery = {
+
+	irregular = {
 		attack = 0.25
-		support = 0.5
+		defence = 0.25
+		support = 0.2
 		supply_consumption = 0.3
+	}
+	infantry = {
+		attack = 0.5
+		defence = 0.5
+		support = 0.2
+		supply_consumption = 0.3
+	}
+	engineer = {
+		attack = 0.25
+		defence = 0.25
+		support = 0.2
+		supply_consumption = 0.3
+	}
+	cavalry = {
+		support = 0.1
+		supply_consumption = 0.15
+	}
+	dragoon = {
+		support = 0.1
+		supply_consumption = 0.15
 	}
 	ai_chance = {
 		factor = 4
@@ -1937,10 +1980,33 @@ steel_breech_loaded_artillery = {
 	year = 1870
 	cost = 14400
 	unciv_military = yes
-	artillery = {
+	irregular = {
 		attack = 0.5
-		support = 0.5
+		defence = 0.5
+		support = 0.2
 		supply_consumption = 0.3
+	}
+	
+	infantry = {
+		attack = 0.5
+		defence = 0.5
+		support = 0.2
+		supply_consumption = 0.3
+	}
+	
+	engineer = {
+		attack = 0.5
+		defence = 0.5
+		support = 0.2
+		supply_consumption = 0.3
+	}
+	cavalry = {
+		support = 0.1
+		supply_consumption = 0.15
+	}
+	dragoon = {
+		support = 0.1
+		supply_consumption = 0.15
 	}
 
 	ai_chance = {
@@ -2074,11 +2140,29 @@ indirect_artillery_fire = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
-	artillery = {
-		attack = 1
-		support = 0.5
-		supply_consumption = 0.3
+	irregular = {
+		attack = 0.5
+		defence = 0.5
+		support = 0.3
+		supply_consumption = 0.45
 	}
+	infantry = {
+		defence = 0.5
+		support = 0.3
+		supply_consumption = 0.45
+	}
+	engineer = {
+		attack = 0.5
+		defence = 0.5
+		support = 0.3
+		supply_consumption = 0.45
+	}
+	artillery = {
+		attack = 0.5
+		support = 0.3
+		supply_consumption = 0.45
+	}
+	
 
 	ai_chance = {
 		factor = 4
@@ -2211,11 +2295,38 @@ heavy_armament_dunno = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
-	artillery = {
-		attack = 1
-		support = 0.5
-		supply_consumption = 0.3
+	irregular = {
+		attack = 0.5
+		support = 0.1
+		supply_consumption = 0.15
 	}
+	infantry = {
+		attack = 0.5
+		support = 0.1
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+		supply_consumption = 0.15
+	}
+	artillery = {
+		attack = 0.5
+		defence = 0.5
+		support = 0.1
+		supply_consumption = 0.15
+	}
+	motorized = {
+		defence = 0.5
+		support = 0.1
+		supply_consumption = 0.15
+	}
+	tank = {
+		attack = 0.5
+		defence = 0.5
+		support = 0.1
+		supply_consumption = 0.15
+	}
+	
 
 	ai_chance = {
 		factor = 4
@@ -2356,6 +2467,7 @@ military_staff_system = {
 		default_organisation = 5
 		supply_consumption = 0.10
 	}
+	activate_unit = dragoon
 
 	ai_chance = {
 		factor = 1.5
@@ -2493,6 +2605,7 @@ military_plans = {
 		default_organisation = 5
 		supply_consumption = 0.10
 	}
+	activate_unit = engineer
 
 	ai_chance = {
 		factor = 1.5
@@ -2768,7 +2881,6 @@ military_logistics = {
 		default_organisation = 5
 		supply_consumption = 0.20
 	}
-	mobilisation_size = 0.03
 
 	ai_chance = {
 		factor = 1.5

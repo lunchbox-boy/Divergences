@@ -1,87 +1,169 @@
 #Sphere of Influence
 
+
+
 #Army
 
+
+
 leader = {
+
 	name = "Gyula Pauk"
+
 	type = land
+
 	date = 1836.1.1
-	personality = bigoted
-	background = incompetent
+
+	personality = defence_0.30
+	background = attack_0.1
 }
+
+
 
 leader = {
+
 	name = "Laszlo Pauk"
+
 	type = land
+
 	date = 1836.1.1
-	personality = careful
-	background = war_college
+
+	personality = defence_2.1
+	background = attack_1.1
 }
 
+
+
 army = {
+
 	name = "Army of the Kingdom of Hungary"
+
 	location = 641
-	regiment = {
-		name= "1.1. hussar"
-		type = hussar
-		home = 637
-	}
 
 	regiment = {
-		name= "2.1. hussar"
-		type = hussar
+
+		name= "1.1. dragoon"
+
+		type = dragoon
+
 		home = 637
+
 	}
 
+
+
 	regiment = {
-		name= "3.1. hussar"
-		type = hussar
+
+		name= "2.1. dragoon"
+
+		type = dragoon
+
+		home = 637
+
+	}
+
+
+
+	regiment = {
+
+		name= "3.1. dragoon"
+
+		type = dragoon
+
 		home = 950
+
 	}
 
+
+
 	regiment = {
+
 		name= "1.3. infantry"
+
 		type = infantry
+
 		home = 779
+
 	}
 
+
+
 	regiment = {
+
 		name= "2.3. infantry"
+
 		type = infantry
+
 		home = 647
+
 	}
 
+
+
 	regiment = {
+
 		name= "3.3. infantry"
+
 		type = infantry
+
 		home = 641
+
 	}
+
 }
 
+
+
 army = {
+
 	name = "Army of Transylvania"
+
 	location = 657
+
 	regiment = {
+
 		name= "1.1. infantry"
+
 		type = infantry
+
 		home = 623
+
 	}
 
+
+
 	regiment = {
+
 		name= "2.1. infantry"
+
 		type = infantry
+
 		home = 623
+
 	}
 
-	regiment = {
-		name= "1.1. Artillery"
-		type = artillery
-		home = 641
-	}
+
 
 	regiment = {
-		name= "2.1. Artillery"
-		type = artillery
+
+		name= "1.1. infantry"
+
+		type = infantry
+
 		home = 641
+
 	}
+
+
+
+	regiment = {
+
+		name= "2.1. infantry"
+
+		type = infantry
+
+		home = 641
+
+	}
+
 }

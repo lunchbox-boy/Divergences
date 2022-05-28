@@ -1,61 +1,117 @@
 leader = {
+
 	name = "Sadeq Larijani"
+
 	type = land
+
 	date = 1836.1.1
-	personality = bigoted
-	background = hated
+
+	personality = defence_0.30
+	background = attack_0.1
 }
+
+
 
 leader = {
+
 	name = "Hasan Basri"
+
 	type = land
+
 	date = 1836.1.1
-	personality = inspiring
-	background = megalomaniac
+
+	personality = defence_0.30
+	background = attack_1.1
 }
 
+
+
 army = {
+
 	name = "Southern Army"
+
 	location = 1125
 
-	regiment = {
-		name= "1. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1125
-	}
+
 
 	regiment = {
-		name= "2. Bakhsh-i Piyadenizam"
+
+		name= "1. Bakhsh-i Piyadenizam"
+
 		type = infantry
-		home = 1113
+
+		home = 1125
+
 	}
+
+
+
+	regiment = {
+
+		name= "2. Bakhsh-i Piyadenizam"
+
+		type = infantry
+
+		home = 1113
+
+	}
+
 }
 
+
+
 army = {
+
 	location = 1115
+
 	name = "Army of Sari"
 
+
+
 	regiment = {
+
 		name= "3. Bakhsh-i Piyadenizam"
+
 		type = infantry
+
 		home = 1115
+
 	}
 
+
+
 	regiment = {
+
 		name= "4. Bakhsh-i Piyadenizam"
+
 		type = infantry
+
 		home = 1115
+
 	}
 
+
+
 	regiment = {
+
 		name= "5. Bakhsh-i Piyadenizam"
+
 		type = infantry
+
 		home = 1114
+
 	}
 
+
+
 	regiment = {
+
 		name= "6. Bakhsh-i Piyadenizam"
+
 		type = infantry
+
 		home = 1121
+
 	}
+
 }
