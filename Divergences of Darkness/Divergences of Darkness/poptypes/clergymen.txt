@@ -9,8 +9,8 @@ demote_migrant = yes
 
 rebel =
 {
-	infantry = 0.5
-	irregular = 0.5
+	infantry = 0.1
+	irregular = 0.9
 }
 
 

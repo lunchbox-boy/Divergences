@@ -1214,8 +1214,7 @@ x_rays = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0002
-		land_attrition = -0.02
+		land_attrition = -0.1
 	}
 }
 edison_light_bulb = {

@@ -5,9 +5,6 @@ post_napoleonic_army_doctrine = {
 		base = 2
 	}
 	effect = {
-		irregular = {
-			defence = 0.75
-		}
 		cavalry = {
 			defence = 1
 		}
@@ -35,7 +32,7 @@ field_fortifications = {
 	}
 	effect = {
 		irregular = {
-			defence = 0.75
+			defence = 0.65
 		}
 		infantry = {
 			defence = 0.75
@@ -121,7 +118,7 @@ synchronized_heavy_support = {
 	}
 	effect = {
 		irregular = {
-			defence = 1
+			defence = 0.4
 		}
 		infantry = {
 			defence = 1.5
@@ -148,7 +145,7 @@ trench_systems = {
 	}
 	effect = {
 		irregular = {
-			defence = 0.5
+			defence = 0.25
 		}
 		infantry = {
 			defence = 0.75
@@ -182,9 +179,6 @@ elastic_defense_system = {
 		}
 	}
 	effect = {
-		irregular = {
-			defence = 0.5
-		}
 		infantry = {
 			defence = 0.75
 		}
@@ -226,7 +220,7 @@ low_echelon_fire_support = {
 	}
 	effect = {
 		irregular = {
-			defence = 1
+			defence = 0.25
 		}
 		infantry = {
 			defence = 1.5
@@ -261,7 +255,7 @@ tank_experiments = {
 		}
 	}
 	effect = {
-		activate_unit = artillery
+		activate_unit = cuirassier
 		activate_building = barrel_factory
 	}
 }
@@ -284,7 +278,7 @@ tank_exploits = {
 		}
 	}
 	effect = {
-		artillery = {
+		cuirassier = {
 			attack = 2.5
 			supply_consumption = 0.5
 		}
@@ -352,7 +346,7 @@ mobile_infantry = {
 		
 	}
 	effect = {
-		activate_unit = motorized
+		activate_unit = guard
 	}
 }
 
@@ -372,11 +366,6 @@ flintlock_rifle_armament = {
 		}
 	}
 	effect = {
-		irregular = {
-			attack = 0.25
-			defence = 0.25
-			supply_consumption = 0.10
-		}
 		infantry = {
 			attack = 0.5
 			defence = 0.5
@@ -384,6 +373,19 @@ flintlock_rifle_armament = {
 		}
 		
 		
+	}
+}
+well_regulated_malitia = {
+	limit = { flintlock_rifles = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		irregular = {
+			attack = 1
+			defence = 1
+			support = 0.1
+		}
 	}
 }
 
@@ -443,8 +445,8 @@ breech_loaded_rifle_armament = {
 			supply_consumption = 0.10
 		}
 		irregular = {
-			attack = 0.5	
-			defence = 0.5
+			attack = 0.25	
+			defence = 0.25
 			supply_consumption = 0.10
 		}
 		engineer = {
@@ -479,8 +481,8 @@ machine_gun_armament = {
 	}
 	effect = {
 		irregular = {
-			attack = 1
-			defence = 2
+			attack = 0.5
+			defence = 1.5
 			supply_consumption = 0.20
 		}
 		infantry = {
@@ -561,7 +563,7 @@ bolt_action_rifle_armament = {
 	}
 	effect = {
 		irregular = {
-			defence = 4
+			defence = 2.5
 			supply_consumption = 0.20
 		}
 		infantry = {
@@ -574,7 +576,7 @@ bolt_action_rifle_armament = {
 			defence = 5.5
 			supply_consumption = 0.20
 		}
-		artillery = {
+		cuirassier = {
 			attack = 5
 			supply_consumption = 0.20
 		}
@@ -601,14 +603,14 @@ interwar_infantry = {
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 2.5
+			attack = 1.5
 			supply_consumption = 0.20
 		}
 		engineer = {
 			attack = 1
 			supply_consumption = 0.20
 		}
-		motorized = {
+		guard = {
 			attack = 3
 			supply_consumption = 0.20
 		}
@@ -694,7 +696,7 @@ light_tank = {
 			defence = 1
 			supply_consumption = 0.5
 		}
-		artillery = {
+		cuirassier = {
 			attack = 1
 			defence = 1
 			supply_consumption = 0.5
@@ -720,7 +722,7 @@ medium_tank = {
 			defence = 1.5
 			supply_consumption = 0.75
 		}
-		artillery = {
+		cuirassier = {
 			attack = 1
 			defence = 1
 			supply_consumption = 0.75
@@ -741,7 +743,7 @@ assult_gun = {
 		}
 	}
 	effect = {
-		artillery = {
+		cuirassier = {
 			attack = 2
 			defence = 2.5
 			supply_consumption = 0.75
@@ -771,7 +773,7 @@ armoured_cars = {
 			discipline = 0.5
 			supply_consumption = 0.25
 		}
-		artillery = {
+		cuirassier = {
 			maximum_speed = 1
 			discipline = 0.5
 			supply_consumption = 0.25
@@ -785,9 +787,6 @@ force_concentration = {
 		base = 2
 	}
 	effect = {
-		irregular = {
-			attack = 0.75
-		}
 		cavalry = {
 			attack = 1.5
 		}
@@ -819,7 +818,7 @@ telegraph_coordination = {
 	}
 	effect = {
 		irregular = {
-			attack = 0.75
+			attack = 0.65
 		}
 		cavalry = {
 			attack = 1.5
@@ -881,7 +880,7 @@ empirical_combat_efficiency_matrix = {
 	}
 	effect = {
 		irregular = {
-			attack = 1
+			attack = 0.4
 		}
 		cavalry = {
 			attack = 2
@@ -981,7 +980,7 @@ replenishment_transport_organisation = {
 	}
 	effect = {
 		irregular = {
-			attack = 1
+			attack = 0.5
 		}
 		cavalry = {
 			attack = 2
@@ -1125,7 +1124,7 @@ flexible_counterattacks = {
 		engineer = {
 			attack = 1
 		}
-		artillery = {
+		cuirassier = {
 			attack = 3
 		}
 		army_base = {
@@ -1146,7 +1145,7 @@ stormtrooper_training = {
 	}
 	effect = {
 		irregular = {
-			attack = 1
+			attack = 0.75
 		}
 		infantry = {
 			attack = 1.5
@@ -1154,10 +1153,10 @@ stormtrooper_training = {
 		engineer = {
 			attack = 1
 		}
-		motorized = {
+		guard = {
 			attack = 3.5
 		}
-		artillery = {
+		cuirassier = {
 			attack = 2.5
 		}
 		tank = {

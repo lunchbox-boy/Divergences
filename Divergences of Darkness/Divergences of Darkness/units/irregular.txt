@@ -16,7 +16,7 @@ irregular = {
 
 
     #Building Costs
-    build_time = 45
+    build_time = 10
     build_cost = {
 		wool = 10
 	}
@@ -24,18 +24,15 @@ irregular = {
     supply_consumption = 1.0
     supply_cost = {
 		wool = 0.1
-		canned_food = 0.03
-		small_arms = 0.006
-		ammunition = 0.0325
 	}
 
 
 
     #Land Abilties
     reconnaissance = 2
-    attack = 3
-    defence = 3
+    attack = 2
+    defence = 2
     discipline = 1
-    support = 0.1
+    support = 0.0
     maneuver = 1
 }

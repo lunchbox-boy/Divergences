@@ -9,13 +9,13 @@ research_optimum = 0.002	#used for leadership as well.
 
 rebel =
 {
-	cavalry = 0.2
-	artillery = 0.01
-	cuirassier = 0.05
-	dragoon = 0.05
-	guard = 0.15
-	hussar = 0.05
-	infantry = 0.3
+	cavalry = 0
+	artillery = 0
+	cuirassier = 0
+	dragoon = 0
+	guard = 0
+	hussar = 0
+	infantry = 1
 	irregular = 0
 }
 

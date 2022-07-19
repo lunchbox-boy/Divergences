@@ -7,8 +7,8 @@ demote_migrant = yes
 
 rebel =
 {
-	infantry = 0.5
-	irregular = 0.5
+	infantry = 0.25
+	irregular = 0.75
 }
 
 administrative_efficiency = yes

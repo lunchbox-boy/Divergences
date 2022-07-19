@@ -305,7 +305,7 @@ german_struggle = {
 		}
 		NOT = { year = 1860 }
 	}
-	mobilisation_size = 0.03
+	mobilisation_size = 0.02
 }
 
 balkan_struggle = {
@@ -322,7 +322,7 @@ balkan_struggle = {
 		}
 		NOT = { year = 1860 }
 	}
-	mobilisation_size = 0.03
+	mobilisation_size = 0.02
 }
 
 ai_help = {

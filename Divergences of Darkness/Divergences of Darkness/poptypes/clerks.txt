@@ -4,8 +4,8 @@ research_optimum = 0.04
 
 rebel =
 {
-	infantry = 0.5
-	irregular = 0.5
+	infantry = 0.25
+	irregular = 0.75
 }
 
 

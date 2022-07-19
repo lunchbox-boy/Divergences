@@ -1614,12 +1614,6 @@ bronze_muzzle_loaded_artillery = {
 	year = 1836
 	cost = 3600
 	unciv_military = yes
-
-	irregular = {
-		attack = 0.1
-		defence = 0.1
-		supply_consumption = 0.05
-	}
 	
 	infantry = {
 		attack = 0.25
@@ -1668,8 +1662,8 @@ iron_muzzle_loaded_artillery = {
 	unciv_military = yes
 
 	irregular = {
-		attack = 0.15
-		defence = 0.15
+		attack = 0.1
+		defence = 0.1
 		support = 0.1
 		supply_consumption = 0.15
 	}
@@ -1824,8 +1818,8 @@ iron_breech_loaded_artillery = {
 	unciv_military = yes
 
 	irregular = {
-		attack = 0.25
-		defence = 0.25
+		attack = 0.1
+		defence = 0.1
 		support = 0.2
 		supply_consumption = 0.3
 	}
@@ -2141,8 +2135,8 @@ indirect_artillery_fire = {
 	cost = 18000
 	unciv_military = yes
 	irregular = {
-		attack = 0.5
-		defence = 0.5
+		attack = 0.25
+		defence = 0.25
 		support = 0.3
 		supply_consumption = 0.45
 	}
@@ -2157,7 +2151,7 @@ indirect_artillery_fire = {
 		support = 0.3
 		supply_consumption = 0.45
 	}
-	artillery = {
+	cuirassier = {
 		attack = 0.5
 		support = 0.3
 		supply_consumption = 0.45
@@ -2296,7 +2290,7 @@ heavy_armament_dunno = {
 	cost = 21600
 	unciv_military = yes
 	irregular = {
-		attack = 0.5
+		attack = 0.25
 		support = 0.1
 		supply_consumption = 0.15
 	}
@@ -2309,13 +2303,13 @@ heavy_armament_dunno = {
 		support = 0.1
 		supply_consumption = 0.15
 	}
-	artillery = {
+	cuirassier = {
 		attack = 0.5
 		defence = 0.5
 		support = 0.1
 		supply_consumption = 0.15
 	}
-	motorized = {
+	guard = {
 		defence = 0.5
 		support = 0.1
 		supply_consumption = 0.15
